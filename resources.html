@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEST: Skint Dance - International Dance and Music Weekend</title>
+    <link href="/content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/content/site.css" rel="stylesheet" type="text/css" />
+    <link href="/inkscape/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <script src="/scripts/jquery-2.2.2.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/knockout-3.4.0.js"></script>
+    <script src="/scripts/resources.js"></script>
+</head>
+
+<body>
+    <div>
+
+        <div class="navbar navbar-default skint-nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html"><img class="skint-unobtrusive-img navbar-brand" src="/inkscape/logoPlaceholder.svg" /></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#skint-navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="skint-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                About  <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-skint">
+                                <li><a href="about.html">About the Festival</a></li>
+                                <li><a href="committee.html">The Committee</a></li>
+                                <li><a href="constitution.html">The Constitution</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="booking.html">Booking</a></li>
+                        <li><a href="accommodation.html">Accommodation</a></li>
+                        <li><a href="gettinghere.html">Getting here</a></li>
+                        <li class="active"><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container skint-container">
+
+            <div class="content">
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="glyphicon glyphicon-sort-by-attributes-alt"></i> Sort by: <span data-bind="text:sortBy"></span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" data-bind="foreach: sortOptions">
+                        <li><a href="javascript:void(0)" data-bind="text: $data, click: $parent.changeSort"></a></li>
+                    </ul>
+                </div>
+
+                <h2>Resources</h2>
+                
+                <div>
+                    
+                    <!--<div class="resource-container row" data-bind="foreach: recordings">
+                        
+                        <div class="resource-row col-md-4">
+                            <h4 data-bind="text: displayName"></h4>
+                        </div>
+                        
+                    </div>-->
+                    
+                    
+                    <table class="table resource-table" data-bind="foreach: recordings">
+                        <tr>
+                            <td>
+                                <div class="media">
+                                <div class="media-left">
+                                    <span class="media-object"><span data-bind="attr: { title: category }, css: 'glyphicon ' + (category == 'Recording' ? 'glyphicon-headphones' : 'glyphicon-file')"></span></span>
+                                </div>
+                                <div class="media-body">
+                                    <a data-bind="attr: {href: source, target: '_blank'}"><h4 class="media-heading" data-bind="text:displayName"></h4></a>
+                                    <div data-bind="text: tuneType + ', from ' + workshop + ' ' + year"></div>
+                                </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    
+                    <h4>underlying data for debugging</h4>
+                    <table class="table resource-table" data-bind="foreach: recordings">
+                        <tr>
+                            <td data-bind="text: displayName"></td>
+                            <td data-bind="text: category"></td>
+                            <td data-bind="text: tuneType"></td>
+                            <td data-bind="text: workshop"></td>
+                            <td data-bind="text: year"></td>
+                            <td><a data-bind="text: 'Link', href: source"></a></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
