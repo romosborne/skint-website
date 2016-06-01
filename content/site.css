@@ -3,6 +3,11 @@
     padding-bottom: 40px;
 }
 
+body:not(.home-body) {
+    background: url("/inkscape/dancers.svg") no-repeat;
+    background-size: 100%;
+}
+
 .skint-header-img {
     width:100%;
 }
