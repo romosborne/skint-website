@@ -15,8 +15,8 @@ $(document).ready(function() {
         var self = this;
 
         self.recordings = ko.observableArray(recordings);
-
         self.sortBy = ko.observable("Tune Name");
+        self.searchFilter = ko.observable("");
 
         self.sortOptions = [
             "Tune name",
@@ -47,16 +47,44 @@ $(document).ready(function() {
 
         self.pageSize = ko.observable(50);
 
-        self.changeSort("Tune name");
+        self.filteredRecordings = ko.computed(function () {
+            var filtered = self.recordings();
+
+            if (self.searchFilter() != "") {
+                filtered = ko.utils.arrayFilter(self.recordings(), function (recording) {
+                    var isContained = false;
+                    var parts = self.searchFilter().split(' ');
+
+                    for (var i = 0; i < parts.length; i++) {
+                        isContained = isContained || recording.displayName.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.category.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.year.toString().toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.workshop.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.tuneType.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                    }
+
+                    return isContained;
+                });
+
+            }
+
+            if (filtered.length > self.pageSize()) {
+                filtered = filtered.take(self.pageSize());
+            }
+
+            return filtered;
+        });
+
     };
 
 
     var jsonUrl = "/resources.json"
 
     $.getJSON(jsonUrl).done(function(data){
-        ko.applyBindings(new viewModel(data));
+        var instance = new viewModel(data); 
+        ko.applyBindings(instance);
+        instance.changeSort(instance.sortBy());
     });
 
-    viewModel.changeSort(viewModel.sortBy());
 
 });
