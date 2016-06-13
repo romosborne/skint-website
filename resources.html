@@ -32,7 +32,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="skint-navbar-collapse">
                     <ul class="nav navbar-nav">
-                        
+
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 About  <span class="caret"></span>
@@ -60,52 +60,36 @@
                         <i class="glyphicon glyphicon-sort-by-attributes-alt"></i> Sort by: <span data-bind="text:sortBy"></span> <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" data-bind="foreach: sortOptions">
-                        <li><a href="javascript:void(0)" data-bind="text: $data, click: $parent.changeSort"></a></li>
+                        <li>
+                            <a href="javascript:void(0)" data-bind="text: $data, click: $parent.changeSort"></a>
+                        </li>
                     </ul>
                 </div>
-
                 <h2>Resources</h2>
-                
+
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search" data-bind="textInput: searchFilter" />
+                    </div>
+                    
                 <div>
-                    
-                    <!--<div class="resource-container row" data-bind="foreach: recordings">
-                        
-                        <div class="resource-row col-md-4">
-                            <h4 data-bind="text: displayName"></h4>
-                        </div>
-                        
-                    </div>-->
-                    
-                    
-                    <table class="table resource-table" data-bind="foreach: recordings">
+                    <table class="table resource-table" data-bind="foreach: filteredRecordings">
                         <tr>
                             <td>
                                 <div class="media">
-                                <div class="media-left">
-                                    <span class="media-object"><span data-bind="attr: { title: category }, css: 'glyphicon ' + (category == 'Recording' ? 'glyphicon-headphones' : 'glyphicon-file')"></span></span>
-                                </div>
-                                <div class="media-body">
-                                    <a data-bind="attr: {href: source, target: '_blank'}"><h4 class="media-heading" data-bind="text:displayName"></h4></a>
-                                    <div data-bind="text: tuneType + ', from ' + workshop + ' ' + year"></div>
-                                </div>
+                                    <div class="media-left">
+                                        <span class="media-object"><span data-bind="attr: { title: category }, css: 'glyphicon ' + (category == 'Recording' ? 'glyphicon-headphones' : 'glyphicon-file')"></span></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <a data-bind="attr: {href: source, target: '_blank'}"><h4 class="media-heading" data-bind="text:displayName"></h4></a>
+                                        <div data-bind="text: tuneType + ', from ' + workshop + ' ' + year"></div>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    
-                    
-                    <h4>underlying data for debugging</h4>
-                    <table class="table resource-table" data-bind="foreach: recordings">
-                        <tr>
-                            <td data-bind="text: displayName"></td>
-                            <td data-bind="text: category"></td>
-                            <td data-bind="text: tuneType"></td>
-                            <td data-bind="text: workshop"></td>
-                            <td data-bind="text: year"></td>
-                            <td><a data-bind="text: 'Link', href: source"></a></td>
-                        </tr>
-                    </table>
-                    
+
+
                 </div>
 
             </div>

@@ -11,12 +11,12 @@ $(document).ready(function() {
     };
 
     var viewModel = function(recordings) {
-        
-        var self = this;
-        
-        self.recordings = ko.observableArray(recordings);
 
+        var self = this;
+
+        self.recordings = ko.observableArray(recordings);
         self.sortBy = ko.observable("Tune Name");
+        self.searchFilter = ko.observable("");
 
         self.sortOptions = [
             "Tune name",
@@ -47,58 +47,44 @@ $(document).ready(function() {
 
         self.pageSize = ko.observable(50);
 
+        self.filteredRecordings = ko.computed(function () {
+            var filtered = self.recordings();
 
-        self.changeSort("Tune name");
+            if (self.searchFilter() != "") {
+                filtered = ko.utils.arrayFilter(self.recordings(), function (recording) {
+                    var isContained = false;
+                    var parts = self.searchFilter().split(' ');
+
+                    for (var i = 0; i < parts.length; i++) {
+                        isContained = isContained || recording.displayName.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.category.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.year.toString().toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.workshop.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isContained = isContained || recording.tuneType.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                    }
+
+                    return isContained;
+                });
+
+            }
+
+            if (filtered.length > self.pageSize()) {
+                filtered = filtered.take(self.pageSize());
+            }
+
+            return filtered;
+        });
+
     };
 
 
+    var jsonUrl = "/resources.json"
 
-var recordings = [
-            {
-                displayName: "Varvinder Friska", 
-                year: 2015, 
-                category: "Recording", 
-                tuneType: "Polska", 
-                workshop: "Swedish Tunes", 
-                source: "https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
-            },
-            {
-                displayName: "DOOM DOOM DOOM nananananananana", 
-                year: 2015, 
-                category: "Recording", 
-                tuneType: "Slangpolska", 
-                workshop: "Swedish Tunes", 
-                source: "https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
-            },
-            {
-                displayName: "DOOM DOOM DOOM nananananananana", 
-                year: 2015, 
-                category: "Sheet Music", 
-                tuneType: "Slangpolska", 
-                workshop: "Swedish Tunes", 
-                source: "https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
-            },
-            {
-                displayName: "Vals",
-                year: 2013, 
-                category: "Recording", 
-                tuneType: "Vals", 
-                workshop: "Swedish Tunes",
-                source:"https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
-            },
-            {
-                displayName: "Pols efter Hans Gruber", 
-                year:2014, 
-                category: "Sheet Music",
-                tuneType: "Pols", 
-                workshop: "Swedish Tunes", 
-                source: "https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
-            }
-            ];
+    $.getJSON(jsonUrl).done(function(data){
+        var instance = new viewModel(data); 
+        ko.applyBindings(instance);
+        instance.changeSort(instance.sortBy());
+    });
 
-
-    ko.applyBindings(new viewModel(recordings));
-
-    viewModel.changeSort(viewModel.sortBy());
 
 });

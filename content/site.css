@@ -58,6 +58,10 @@ body:not(.home-body) {
     cursor: pointer;
 }
 
+table.resource-table {
+    margin-top: 20px;
+}
+
 .resource-table a:hover,
 .resource-table a *:hover {
     cursor: pointer;
@@ -99,4 +103,8 @@ body:not(.home-body) {
 .skint-footer {
     font-size: x-small;
     color: #999;
+}
+
+.input-group-addon {
+    background-color: transparent!important;
 }
