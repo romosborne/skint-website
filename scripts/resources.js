@@ -52,15 +52,20 @@ $(document).ready(function() {
 
             if (self.searchFilter() != "") {
                 filtered = ko.utils.arrayFilter(self.recordings(), function (recording) {
-                    var isContained = false;
+                    var isContained = true;
                     var parts = self.searchFilter().split(' ');
 
                     for (var i = 0; i < parts.length; i++) {
-                        isContained = isContained || recording.displayName.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
-                        isContained = isContained || recording.category.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
-                        isContained = isContained || recording.year.toString().toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
-                        isContained = isContained || recording.workshop.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
-                        isContained = isContained || recording.tuneType.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        if(parts[i] == "") break;
+                        
+                        var isPartContained = false;
+                        isPartContained = isPartContained || recording.displayName.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isPartContained = isPartContained || recording.category.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isPartContained = isPartContained || recording.year.toString().toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isPartContained = isPartContained || recording.workshop.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        isPartContained = isPartContained || recording.tuneType.toLowerCase().indexOf(parts[i].toLowerCase()) > -1;
+                        
+                        isContained = isPartContained && isContained;
                     }
 
                     return isContained;
