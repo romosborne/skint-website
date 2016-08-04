@@ -107,11 +107,8 @@ table.resource-table {
     border: 1px solid black;
 }
 
-.map-placeholder {
-    height: 200px;
-    width: 200px;
-    padding:20px;
-    border: 1px solid black;
+.map-container {
+    padding-bottom:20px;
 }
 
 .centre-align {
