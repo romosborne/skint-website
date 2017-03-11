@@ -1,0 +1,12 @@
+
+<footer>
+  {{ partial "bloc/content/navigation" . }}
+  {{ partial "bloc/content/comments" . }}
+</footer>
+
+<h2>Read more</h2>
+<ul>
+{{ range $.Params.categories }}
+  <li><a href="/categories/{{ . | urlize }}">{{ . }}</a> </li>
+{{ end }}
+</ul>

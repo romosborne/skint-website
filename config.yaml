@@ -1,0 +1,8 @@
+baseurl: http://www.skintdance.org.uk
+# baseurl: http://localhost:1313
+name: "Skint Dance"
+title: "Skint Dance"
+theme: skint-theme
+
+params:
+  googleAnalytics: ""
