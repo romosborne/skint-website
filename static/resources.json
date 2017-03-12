@@ -1,5 +1,93 @@
 [
             {
+                "displayName": "If you will not have me let me go",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "3/2",
+                "workshop": "3/2 Tunes",
+                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5UGZBaXljT2N2QlE"
+            },
+            {
+                "displayName": "Sylvia's Serenade",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "3/2",
+                "workshop": "3/2 Tunes",
+                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5TkJqMFNTNktGN2c"
+            },
+            {
+                "displayName": "Easter Thursday",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "3/2",
+                "workshop": "3/2 Tunes",
+                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5ZUtJYXp1aGV0VkE"
+            },
+            {
+                "displayName": "Finnskog Pols 1",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Pols",
+                "workshop": "Finnskog Pols",
+                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5SGY3SmdmVXV2M1k"
+            },
+            {
+                "displayName": "Finnskog Pols 2",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Pols",
+                "workshop": "Finnskog Pols",
+                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5eFJBaEloU0N0WVU"
+            },
+            {
+                "displayName": "Finnskog Pols 3",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Pols",
+                "workshop": "Finnskog Pols",
+                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5UmpkdDZBQzBVenc"
+            },
+            {
+                "displayName": "Arthur",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Mazurka",
+                "workshop": "French Style Tunes",
+                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5Y2Q4Y1ZaV2J2QzA"
+            },
+            {
+                "displayName": "Wonderful Waltz",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Waltz",
+                "workshop": "French Style Tunes",
+                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5RGFCYzFUbTkwaWs"
+            },
+            {
+                "displayName": "Bunch of Roses",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Jig",
+                "workshop": "French Style Tunes",
+                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5ZHV2Z2RDZ2ZIdzQ"
+            },
+            {
+                "displayName": "Varmland Polska 1",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Polska",
+                "workshop": "Varmland Polska",
+                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5emh0bjM2ODFqSTQ"
+            },
+            {
+                "displayName": "Varmland Polska 2",
+                "year": 2016,
+                "category": "Recording",
+                "tuneType": "Polska",
+                "workshop": "Varmland Polska",
+                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5RGFCYzFUbTkwaWs"
+            },
+            {
                 "displayName": "Aalbord Polka",
                 "year": 2015,
                 "category": "Recording",
