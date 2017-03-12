@@ -7,6 +7,7 @@
         </header>
       </div>
     {{ end }}
+    {{ .Content }}
     <div class="row">
       <div class="col-sm-{{ if and (isset .Site.Params "showRightSidebar") (eq .Site.Params.showRightSidebar true) }}9{{ else }}12{{ end }}">
         {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
