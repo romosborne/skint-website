@@ -8,14 +8,4 @@
       </div>
     {{ end }}
     {{ .Content }}
-    <div class="row">
-      <div class="col-sm-{{ if and (isset .Site.Params "showRightSidebar") (eq .Site.Params.showRightSidebar true) }}9{{ else }}12{{ end }}">
-      </div>
-      {{ if and (isset .Site.Params "showRightSidebar") (eq .Site.Params.showRightSidebar true)}}
-        <div class="col-sm-3">
-          {{ partial "bloc/content/sidebar" . }}
-        </div>
-      {{ end }}
-    </div>
-
   </div>
