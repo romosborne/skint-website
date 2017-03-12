@@ -6,3 +6,5 @@ theme: skint-theme
 
 params:
   googleAnalytics: ""
+
+disableKinds: ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
