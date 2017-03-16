@@ -10,7 +10,7 @@ date: 2017-03-11T00:00:55+00:00
 
 <div class="media">
     <div class="media-left">
-        <img src="http://placekitten.com/150/150" alt="Hinny">
+        <img src="http://placekitten.com/146/156" alt="Hinny">
     </div>
     <div class="media-body">
         <h4 class="media-heading">Hinny</h4>
@@ -64,7 +64,7 @@ date: 2017-03-11T00:00:55+00:00
 
 <div class="media">
     <div class="media-left">
-        <img src="http://placekitten.com/151/147" alt="J2ohn">
+        <img src="http://placekitten.com/151/153" alt="J2ohn">
     </div>
     <div class="media-body">
         <h4 class="media-heading">J2ohn</h4>
@@ -93,10 +93,10 @@ date: 2017-03-11T00:00:55+00:00
                 
 <div class="media">
     <div class="media-left">
-        <img src="http://placekitten.com/152/149" alt="Ozzy">
+        <img src="http://placekitten.com/152/145" alt="Ozzy">
     </div>
     <div class="media-body">
-        <h4 class="media-heading">Ozzy smells</h4>
+        <h4 class="media-heading">Ozzy</h4>
         zzzzzzzzzzzzzzzzzzzz
     </div>
 </div>

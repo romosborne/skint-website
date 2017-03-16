@@ -10,8 +10,6 @@ date: 2017-03-11T00:00:55+00:00
 </div>
 <div class="col-md-4">
 
-## Transport
-
 Ashover is a Derbyshire village situated in the Amber valley, just outside the Peak District National Park, 4 miles north east of Matlock. It lies off the B6036 Matlock to Chesterfield road.
 
 The hall is on Milken Lane, opposite the Black Swan pub.
@@ -23,21 +21,21 @@ Ashover,
 Derbyshire
 S45 0BA</a></p>
 
-## Trains
+### Trains
 
 The nearest stations are Chesterfield, Matlock and Sheffield.
 
-## Buses
+### Buses
 
 There are buses to Ashover until early evening on Friday and later to Kelstedge (5 mins drive from Ashover) from Sheffield and Chesterfield.
 
 
 [Traveline East Midlands](http://www.travelineeastmidlands.co.uk/em/XSLT_TRIP_REQUEST2?language=en&timeOffset=15)
 
-## Car Parking
+### Car Parking
 
 There is plenty of parking next to the venue.
 
-## Lift Sharing
+### Lift Sharing
 
 We encourage lift-sharing where possible and will endeavour to put people in touch with other Skint-goers from the same area or living en route.

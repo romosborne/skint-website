@@ -38,14 +38,19 @@ date: 2017-03-11T00:00:55+00:00
 <p>Full Weekend (includes participation in the group meals and indoor/outdoor camping) Friday evening to Sunday afternoon  &pound;35.</p>
 -->
 
-All weekend places for 2016 have been taken.
+**Booking for 2017 has not yet opened.** 
 
-<h2>Day &amp; evening places</h2>
+Please sign up for our mailing list to be notified of the next booking window.
+
+<h3>Day &amp; evening places</h3>
 <p>Available on the door. Does not include participation in meals or indoor camping. Please email skint.dance@gmail.com if you are planning to camp outside!</p>
-<p>Friday evening &pound;5<br />
-Saturday day &pound;5<br />
-Saturday evening &pound;5<br />
-Sunday day &pound;5</p></p>
 
-<p style="border:5px solid #ff0000; padding:3px; background-color:#ffcccc; ;"><b>Refunds will be given at 75% until 30th September, and after that no refunds.</b></p>
+<ul class="list-unstyled">
+<li>Friday evening &pound;5</li>
+<li>Saturday day &pound;5</li>
+<li>Saturday evening &pound;5</li>
+<li>Sunday day &pound;5</li>
+</ul>
+
+<!--<p style="border:5px solid #ff0000; padding:5px 10px; background-color:#ffcccc; border-radius:10px;"><b>Refunds will be given at 75% until 30th September, and after that no refunds.</b></p>-->
 

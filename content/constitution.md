@@ -1,9 +1,7 @@
 ---
-title: Constitution
+title: The Constitution
 date: 2017-03-11T00:00:55+00:00
 ---
-
-## The Constitution
 
 #### 1. Name
 The name of the organisation is Skint (which is short for affordable Scandinavian and International music and dance).
@@ -15,7 +13,11 @@ The promotion and enjoyment of international folk music and dance, especially to
 The management of the organisation is through a committee which includes with Chair, Secretary, and Treasurer and other members as appropriate. All committee members shall hold office until the next Annual General Meeting (AGM), but shall then be eligible for re-election. During the year, the committee shall have the power to co-opt additional members as necessary until the next AGM.
 
 #### 4. Powers of the Committee
-a) to raise funds and receive contributions b) to organise insurance, e.g. through affiliation to a relevant organisation such as the Society of International Folk Dancing (SIFD) c) all other lawful things as appropriate for furthering the aims and objectives.
+a) to raise funds and receive contributions 
+
+b) to organise insurance, e.g. through affiliation to a relevant organisation such as the Society of International Folk Dancing (SIFD) 
+
+c) all other lawful things as appropriate for furthering the aims and objectives.
 
 #### 5. Membership
 There is no formal membership for Skint. It is open to all. Current and previous attendees of events will be consulted and informed about major future plans for Skint.
