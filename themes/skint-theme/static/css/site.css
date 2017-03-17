@@ -4,7 +4,8 @@
 }
 
 body:not(.home-body) {
-    background: url("/inkscape/dancers.svg") no-repeat;
+    background: #ffffff;
+    background: url("/inkscape/dancers.svg") no-repeat, linear-gradient(transparent, transparent);
     background-size: 100%;
 }
 
