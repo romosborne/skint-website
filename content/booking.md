@@ -38,12 +38,24 @@ date: 2017-03-11T00:00:55+00:00
 <p>Full Weekend (includes participation in the group meals and indoor/outdoor camping) Friday evening to Sunday afternoon  &pound;35.</p>
 -->
 
-**Booking for 2017 will open on 16th August.**
+**Booking for 2017 will open at 7pm 16th August.**
 
 Please sign up for our mailing list to be notified of the next booking window.
 
+<h3>
+    Booking Process
+</h3>
+<p>
+    Last year we tried a new booking process and seeing as how it worked so beautifully we're going to stick with it this year as well.  Those that sign up in the first half hour (7-7:30pm) will be jumbled up and allocated places in a randomised order (so that people with slower broadband don't miss out unfairly).  After 7:30pm places will be allocated in the traditional first-come-first-served basis.  You can apply for a single place or for two, so couples don't need to worry about only one of you getting a place.
+</p>
+<p>
+    It's likely that if you apply after 7:30pm you will end up on the waiting list, so be there or be square!
+</p>
+
 <h3>Day &amp; evening places</h3>
-<p>Available on the door. Does not include participation in meals or indoor camping. Please email skint.dance@gmail.com if you are planning to camp outside!</p>
+<p>
+    As well as weekend tickets we are also going to be offering day and evening places that don't include food or indoor camping.  These tickets will be available on the door.  Please email skint.dance@gmail.com if you are planning to camp outside!
+</p>
 <!--
 <div class="container">
     <div class="row justify-content-start">
