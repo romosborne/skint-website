@@ -5,6 +5,8 @@ date: 2017-03-11T00:00:55+00:00
 
 # Skint 2017 will be 3rd - 5th November
 
+## Skint booking will open at 7pm on Wednesday 16th August
+
 Ashover Parish Hall, Ashover, Derbyshire
 
 A wonderful low-cost weekend in Derbyshire, with music and dance from across Europe. Workshops, sessions, bals, lovely food, friendly atmosphere and beautiful countryside nearby!
@@ -26,4 +28,3 @@ If you'd like to offer to play or teach something do get in touch by email, or a
 
 ### Contact us
 You can email skint.dance@gmail.com
-
