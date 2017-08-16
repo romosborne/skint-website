@@ -62,4 +62,4 @@ As well as weekend tickets we are also going to be offering day and evening plac
     </div>
 </div>
 
-<a href="http://book.skintdance.org.uk/varaus" class="btn btn-primary btn-lg"">Click here to apply for your place at Skint</a>
+<a href="http://book.skintdance.org.uk/varaus" class="btn btn-primary btn-lg"">Click here to apply for your place at Skint!</a>

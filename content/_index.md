@@ -7,6 +7,8 @@ date: 2017-03-11T00:00:55+00:00
 
 ## Skint booking will open at 7pm on Wednesday 16th August
 
+<a href="/booking" class="btn btn-primary btn-lg">Book your place!</a>
+
 Ashover Parish Hall, Ashover, Derbyshire
 
 A wonderful low-cost weekend in Derbyshire, with music and dance from across Europe. Workshops, sessions, bals, lovely food, friendly atmosphere and beautiful countryside nearby!
