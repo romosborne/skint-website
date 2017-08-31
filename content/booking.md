@@ -47,7 +47,7 @@ Please sign up for our mailing list to be notified of the next booking window.
     <div class="container">
         <div class="row justify-content-start">
             <div class="col-md-8">
-                <table>
+                <table class="table table-condensed table-bordered table-striped">
                     <tr>
                         <td>Friday evening</td><td>&pound;5</td>
                     </tr>
