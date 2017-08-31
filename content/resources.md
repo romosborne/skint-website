@@ -7,7 +7,6 @@ date: 2017-03-11T00:00:55+00:00
 <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
 <input type="text" class="form-control" placeholder="Search" data-bind="textInput: searchFilter" />
 </div>
-
 <div>
     <table class="table resource-table" data-bind="foreach: filteredRecordings">
         <tr>
@@ -24,6 +23,4 @@ date: 2017-03-11T00:00:55+00:00
             </td>
         </tr>
     </table>
-
-
 </div>
