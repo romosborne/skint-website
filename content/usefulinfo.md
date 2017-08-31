@@ -10,36 +10,34 @@ date: 2017-03-11T00:00:55+00:00
 <div class="col-md-4">
 <table class="table table-condensed" style="background-color:#fff">
 <tr><th colspan="2">Friday<th></tr>
-<tr><td style="width:120px">15.00 onwards</td><td>Venue open</td></tr>
-<tr><td>20.00 - 0.00</td><td>Bal</td></tr>
+<tr><td style="width:120px">15:00</td><td>Venue opens</td></tr>
+<tr><td>18:00 - 20:00</td><td>Dinner</td></tr>
+<tr><td>20:00 - 00:00</td><td>Bal</td></tr>
 </table>
 </div>
 <div class="col-md-4">
 <table class="table table-condensed" style="background-color:#fff">
 <tr><th colspan="2">Saturday<th></tr>
-<tr><td style="width:120px">until 10.15</td><td>Breakfast</td></tr>
-<tr><td>10.15 - 11.30</td><td>Workshop slot 1</td></tr>
-<tr><td></td><td>Break</td></tr>
-<tr><td>11.45 - 13.00</td><td>Workshop slot 2</td></tr>
-<tr><td></td><td>Lunch</td></tr>
-<tr><td>14.30 - 15.45</td><td>Workshop slot 3</td></tr>
-<tr><td></td><td>Break</td></tr>
-<tr><td>16.00 - 17.15</td><td>Workshop slot 4</td></tr>
-<tr><td>18.00 - 20.00</td><td>Supper</td></tr>
-<tr><td>20.00 - 0.00</td><td>Bal</td></tr>
+<tr><td style="width:120px">until 10:15</td><td>Breakfast</td></tr>
+<tr><td>10:15 - 11:30</td><td>Workshop slot 1</td></tr>
+<tr><td>11:45 - 13:00</td><td>Workshop slot 2</td></tr>
+<tr><td>13:00 - 14:30</td><td>Lunch</td></tr>
+<tr><td>14:30 - 15:45</td><td>Workshop slot 3</td></tr>
+<tr><td>16:00 - 17:15</td><td>Workshop slot 4</td></tr>
+<tr><td>18:00 - 20:00</td><td>Dinner</td></tr>
+<tr><td>20:00 - 00:00</td><td>Bal</td></tr>
 </table>
 </div>
 <div class="col-md-4">
 <table class="table table-condensed" style="background-color:#fff">
 <tr><th colspan="2">Sunday<th></tr>
-<tr><td style="width:120px">until 10.15</td><td>Breakfast</td></tr>
-<tr><td>10.15 - 11.30</td><td>Workshop slot 5</td></tr>
-<tr><td></td><td>Break</td></tr>
-<tr><td>11.45 - 13.00</td><td>Workshop slot 6</td></tr>
-<tr><td></td><td>Lunch</td></tr>
-<tr><td>14.00 - 16.00</td><td>Clearup</td></tr>
-<tr><td>16.00 - 17.30</td><td>Bal</td></tr>
-<tr><td>18.00</td><td>Venue closes</td></tr>
+<tr><td style="width:120px">until 10:00</td><td>Breakfast</td></tr>
+<tr><td>10:00 - 11:15</td><td>Workshop slot 5</td></tr>
+<tr><td>11:30 - 12:45</td><td>Workshop slot 6</td></tr>
+<tr><td>12:45 - 14:00</td><td>Lunch</td></tr>
+<tr><td>14:00 - 16:00</td><td>Clear-up</td></tr>
+<tr><td>16:00 - 17:30</td><td>Bal</td></tr>
+<tr><td>18:00</td><td>Venue closes</td></tr>
 </table>
 </div>
 

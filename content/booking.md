@@ -69,6 +69,4 @@ During the booking process you will need the following information.
 
 Payment is via GoCardless. Please pay promptly. If this is a problem, you will need to contact us via email.
 
-You will know by midnight if your application was successful. You'll then have a week to pay for your place. If you don't pay then it will be offered to someone else.
-
-<a href="http://book.skintdance.org.uk/varaus" class="btn btn-primary btn-lg">Click here to apply for your place at Skint!</a>
+<a href="http://book.skintdance.org.uk/varaus" class="btn btn-primary btn-lg">Click here to join the waiting list for Skint!</a>
