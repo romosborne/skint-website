@@ -46,7 +46,7 @@ date: 2017-03-11T00:00:55+00:00
 
 ### Food
 
-If you book a full ticket you will be included in the communally prepared meals (breakfast, lunch and supper). Meals are vegetarian. Other diets, e.g. vegan, gluten-free, can be catered for. Let us know when you sign up.
+If you book a full weekend you will be included in the communally prepared meals (breakfast, lunch and supper). Meals are vegetarian. Other diets, e.g. vegan, gluten-free, can be catered for. Let us know when you sign up.
 
 Please bring your own drinks - water, juice, tea and coffee will be provided.
 

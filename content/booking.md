@@ -19,7 +19,11 @@ During the booking process you will need the following information.
     <li>Where you will be travelling from (for potential lift-sharing)</li>
     <li>How you can help (first aid, workshops, playing for dancing, leading a meal, washing up, etc)</li>
     <li>Whether you intend to camp indoors or outdoors - it's the same price</li>
-    </ul>
+</ul>
+
+<p>
+    <strong>Bookings are non-transferrable</strong>
+</p>
 
 <h3>Cancellations</h3>
 
@@ -41,7 +45,7 @@ During the booking process you will need the following information.
     Day &amp; evening places
 </h3>
 <p>
-    As well as weekend tickets we are also going to be offering day and evening places that don't include food or indoor camping.  These tickets will be available on the door.  Please email skint.dance@gmail.com if you are planning to camp outside!
+    As well as weekend places we are also going to be offering day and evening places that don't include food or indoor camping.  These tickets will be available on the door.  Please email skint.dance@gmail.com if you are planning to camp outside!
     <div class="container">
         <div class="row justify-content-start">
             <div class="col-md-8">
