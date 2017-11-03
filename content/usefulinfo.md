@@ -62,7 +62,10 @@ Included in the full weekend place. If you prefer more space, not having to move
 
 You will be asked to state your preference for indoor or outdoor camping on the booking form, just so we have an idea of numbers in advance.
 
+For those of you without full weekend places there is a charge of £5 per person per night.
+
 There are also B&amp;Bs and self-catering cottages nearby.
+
 
 [Peak District Online - accommodation &amp; info](http://www.peakdistrictonline.co.uk/ashover-c2537.html)
 

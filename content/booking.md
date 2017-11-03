@@ -54,10 +54,16 @@ During the booking process you will need the following information.
                         <td>Friday evening</td><td>&pound;5</td>
                     </tr>
                     <tr>
+                        <td>Friday night outdoor camping</td><td>&pound;5</td>
+                    </tr>
+                    <tr>
                         <td>Saturday day</td><td>&pound;5</td>
                     </tr>
                     <tr>
                         <td>Saturday evening</td><td>&pound;5</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday night outdoor camping</td><td>&pound;5</td>
                     </tr>
                     <tr>
                         <td>Sunday day</td><td>&pound;5</td>
