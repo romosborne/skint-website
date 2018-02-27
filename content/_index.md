@@ -3,11 +3,7 @@ title: Skint
 date: 2017-03-11T00:00:55+00:00
 ---
 
-# Skint 2017 will be 3rd - 5th November
-
-All places have currently been allocated, but please add yourself to the waiting list if you would like to come - we always get some cancellations.
-
-<a href="/booking" class="btn btn-primary btn-lg">Join the waiting list!</a>
+# Skint
 
 ### What is Skint?
 Skint is a weekend of international music and dance, held each year in Derbyshire, England. One of the main aims of Skint is to make European folk dance and music accessible to all, particularly to those who may be unable to afford festivals in the UK or abroad. You can read more about our aims in our constitution.
