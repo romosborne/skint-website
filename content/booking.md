@@ -5,6 +5,8 @@ date: 2017-03-11T00:00:55+00:00
 
 ## 2nd-4th November 2018
 
+<strong>Booking will open on 15th August at 7pm</strong>
+
 <h3>Booking Process</h3>
 
 Last year we tried a new booking process and seeing as how it worked so beautifully we're going to stick with it this year as well.  Those that sign up in the first half hour (7-7:30pm) will be jumbled up and allocated places in a randomised order (so that people with slower broadband don't miss out unfairly).  After 7:30pm places will be allocated in the traditional first-come-first-served basis.  You can apply for a single place or for two, so couples don't need to worry about only one of you getting a place. 
