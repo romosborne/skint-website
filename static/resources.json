@@ -1,234 +1,298 @@
 [
-            {
-                "displayName": "If you will not have me let me go",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "3/2",
-                "workshop": "3/2 Tunes",
-                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5UGZBaXljT2N2QlE"
-            },
-            {
-                "displayName": "Sylvia's Serenade",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "3/2",
-                "workshop": "3/2 Tunes",
-                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5TkJqMFNTNktGN2c"
-            },
-            {
-                "displayName": "Easter Thursday",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "3/2",
-                "workshop": "3/2 Tunes",
-                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5ZUtJYXp1aGV0VkE"
-            },
-            {
-                "displayName": "Finnskog Pols 1",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Pols",
-                "workshop": "Finnskog Pols",
-                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5SGY3SmdmVXV2M1k"
-            },
-            {
-                "displayName": "Finnskog Pols 2",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Pols",
-                "workshop": "Finnskog Pols",
-                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5eFJBaEloU0N0WVU"
-            },
-            {
-                "displayName": "Finnskog Pols 3",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Pols",
-                "workshop": "Finnskog Pols",
-                "source":"https://drive.google.com/open?id=0BzUFFnWu1BK5UmpkdDZBQzBVenc"
-            },
-            {
-                "displayName": "Arthur",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Mazurka",
-                "workshop": "French Style Tunes",
-                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5Y2Q4Y1ZaV2J2QzA"
-            },
-            {
-                "displayName": "Wonderful Waltz",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Waltz",
-                "workshop": "French Style Tunes",
-                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5RGFCYzFUbTkwaWs"
-            },
-            {
-                "displayName": "Bunch of Roses",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Jig",
-                "workshop": "French Style Tunes",
-                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5ZHV2Z2RDZ2ZIdzQ"
-            },
-            {
-                "displayName": "Varmland Polska 1",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Polska",
-                "workshop": "Varmland Polska",
-                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5emh0bjM2ODFqSTQ"
-            },
-            {
-                "displayName": "Varmland Polska 2",
-                "year": 2016,
-                "category": "Recording",
-                "tuneType": "Polska",
-                "workshop": "Varmland Polska",
-                "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5dXIyQjRZQnVDNDA"
-            },
-            {
-                "displayName": "Aalbord Polka",
-                "year": 2015,
-                "category": "Recording",
-                "tuneType": "Polka",
-                "workshop": "Danish Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXcGNmaGZTdXNDeDg"
-            },
-            {
-                "displayName": "Ostindiens Velkomst",
-                "year": 2015,
-                "category": "Recording",
-                "tuneType": "Sonderhoning",
-                "workshop": "Danish Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXVFk0MmpSTzNCN0U"
-            },
-            {
-                "displayName": "Polonaisse från Litresk",
-                "year": 2015,
-                "category": "Recording",
-                "tuneType": "Polonaisse",
-                "workshop": "Swedish Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXRWFGbjF0Vy1yZzQ"
-            },
-            {
-                "displayName": "Polska e. Janne Mortenson",
-                "year": 2015,
-                "category": "Recording",
-                "tuneType": "Polska",
-                "workshop": "Swedish Tunes",
-                "source":"https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
-            },
-            {
-                "displayName": "Polska e. Jorgen Lind",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Polska",
-                "workshop": "Swedish Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXMG1QVGZ4LU1vVFE"
-            },
-            {
-                "displayName": "Welsh Morris",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "U/K",
-                "workshop": "Welsh Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXdEZISThqOEVhYkE"
-            },
-            {
-                "displayName": "Welsh Waltz",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Waltz",
-                "workshop": "Welsh Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXbVI4bkZ0WmtlUG8"
-            },
-            {
-                "displayName": "Fiddle Faddle",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Polka",
-                "workshop": "Welsh Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXbjFlWmdxS3JuNEU"
-            },
-            {
-                "displayName": "Mazurka by Steve Turner",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Mazurka",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXQWpzdHNXb2ZkXzA"
-            },
-            {
-                "displayName": "Muzique Mazurka",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Mazurka",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXSFFiQVMxM2lraGM"
-            },
-            {
-                "displayName": "Der_Brinner_en_Eld",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Polska (Song)",
-                "workshop": "Swedish Songs",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXRjJyaGRNU1h5aVU"
-            },
-            {
-                "displayName": "Du och Jag och Vi To (Song about clogs)",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Hottis (Song)",
-                "workshop": "Swedish Songs",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXYVM2UnhkOE9yNmc"
-            },
-            {
-                "displayName": "Waltz",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Waltz (Song)",
-                "workshop": "Swedish Songs",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXRGVNQS1WOWRZaWs"
-            },
-            {
-                "displayName": "La Chaud",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Bourrée",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXcDA5SE43d29MZGc"
-            },
-            {
-                "displayName": "Bourrée de Alfred Mourre",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Bourrée",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXSklzNXJZWW1wSWM"
-            },
-            {
-                "displayName": "Calarem Calarem Pas",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Bourrée",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXeW5lbUVUY3FKZWc"
-            },
-            {
-                "displayName": "Bourrée de l'hôpital",
-                "year":2015,
-                "category": "Recording",
-                "tuneType": "Bourrée",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXUjE5Y05meWNGYm8"
-            },
-            {
-                "displayName": "Bourrée de l'hôpital",
-                "year":2015,
-                "category": "Sheet Music",
-                "tuneType": "Bourrée",
-                "workshop": "French Tunes",
-                "source": "https://drive.google.com/open?id=0B36gCreiztaXSHZJQmFjcHpEVGs"
-            }
+    {
+        "displayName": "Idumea",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Choral",
+        "workshop": "Sacred Harp",
+        "source": "https://drive.google.com/open?id=1L0K6vGjqTUR81Kb644Nsj-iRxC6yp6F3"
+    },
+    {
+        "displayName": "Oak Grove",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Choral",
+        "workshop": "Sacred Harp",
+        "source": "https://drive.google.com/open?id=1l23-F3X8iwLB8wgYpVz3RrjAUPt2qr9v"
+    },
+    {
+        "displayName": "Primrose",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Choral",
+        "workshop": "Sacred Harp",
+        "source": "https://drive.google.com/open?id=15VZrvdbpPKM-RENOldc_qlTQSptq7HaR"
+    },
+    {
+        "displayName": "Bridgewater",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Choral",
+        "workshop": "Sacred Harp",
+        "source": "https://drive.google.com/open?id=191r_S5IUORPdIcQtGgVq08ahZuhVEe_j"
+    },
+    {
+        "displayName": "Three Red Roses",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Schottisch",
+        "workshop": "Spelmanslag",
+        "source": "https://drive.google.com/open?id=1od51BkOUUiM25FfsfZN7_LmXDBeP3-f3"
+    },
+    {
+        "displayName": "Romja",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Schottisch",
+        "workshop": "Tune Swap",
+        "source": "https://drive.google.com/open?id=1NFOS3cAysso2qZESE3KQ2iGoQFe5XyFU"
+    },
+    {
+        "displayName": "Simply",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Gavotte de L'Aven",
+        "workshop": "Tune Swap",
+        "source": "https://drive.google.com/open?id=1kq2RQ42myJnJcQq9M1GqvV0_GjM4TAne"
+    },
+    {
+        "displayName": "Waltz e. Carl Fanta",
+        "year": 2018,
+        "category": "Recording",
+        "tuneType": "Waltz",
+        "workshop": "Tune Swap",
+        "source": "https://drive.google.com/open?id=1yP02_qot-ZSUg-6Qk2tD4c1Gv5UeuR9T"
+    },
+    {
+        "displayName": "If you will not have me let me go",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "3/2",
+        "workshop": "3/2 Tunes",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5UGZBaXljT2N2QlE"
+    },
+    {
+        "displayName": "Sylvia's Serenade",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "3/2",
+        "workshop": "3/2 Tunes",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5TkJqMFNTNktGN2c"
+    },
+    {
+        "displayName": "Easter Thursday",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "3/2",
+        "workshop": "3/2 Tunes",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5ZUtJYXp1aGV0VkE"
+    },
+    {
+        "displayName": "Finnskog Pols 1",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Pols",
+        "workshop": "Finnskog Pols",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5SGY3SmdmVXV2M1k"
+    },
+    {
+        "displayName": "Finnskog Pols 2",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Pols",
+        "workshop": "Finnskog Pols",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5eFJBaEloU0N0WVU"
+    },
+    {
+        "displayName": "Finnskog Pols 3",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Pols",
+        "workshop": "Finnskog Pols",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5UmpkdDZBQzBVenc"
+    },
+    {
+        "displayName": "Arthur",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Mazurka",
+        "workshop": "French Style Tunes",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5Y2Q4Y1ZaV2J2QzA"
+    },
+    {
+        "displayName": "Wonderful Waltz",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Waltz",
+        "workshop": "French Style Tunes",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5RGFCYzFUbTkwaWs"
+    },
+    {
+        "displayName": "Bunch of Roses",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Jig",
+        "workshop": "French Style Tunes",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5ZHV2Z2RDZ2ZIdzQ"
+    },
+    {
+        "displayName": "Varmland Polska 1",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Polska",
+        "workshop": "Varmland Polska",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5emh0bjM2ODFqSTQ"
+    },
+    {
+        "displayName": "Varmland Polska 2",
+        "year": 2016,
+        "category": "Recording",
+        "tuneType": "Polska",
+        "workshop": "Varmland Polska",
+        "source": "https://drive.google.com/open?id=0BzUFFnWu1BK5dXIyQjRZQnVDNDA"
+    },
+    {
+        "displayName": "Aalbord Polka",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Polka",
+        "workshop": "Danish Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXcGNmaGZTdXNDeDg"
+    },
+    {
+        "displayName": "Ostindiens Velkomst",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Sonderhoning",
+        "workshop": "Danish Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXVFk0MmpSTzNCN0U"
+    },
+    {
+        "displayName": "Polonaisse från Litresk",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Polonaisse",
+        "workshop": "Swedish Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXRWFGbjF0Vy1yZzQ"
+    },
+    {
+        "displayName": "Polska e. Janne Mortenson",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Polska",
+        "workshop": "Swedish Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXR1JfcXVTenhMYVE"
+    },
+    {
+        "displayName": "Polska e. Jorgen Lind",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Polska",
+        "workshop": "Swedish Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXMG1QVGZ4LU1vVFE"
+    },
+    {
+        "displayName": "Welsh Morris",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "U/K",
+        "workshop": "Welsh Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXdEZISThqOEVhYkE"
+    },
+    {
+        "displayName": "Welsh Waltz",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Waltz",
+        "workshop": "Welsh Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXbVI4bkZ0WmtlUG8"
+    },
+    {
+        "displayName": "Fiddle Faddle",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Polka",
+        "workshop": "Welsh Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXbjFlWmdxS3JuNEU"
+    },
+    {
+        "displayName": "Mazurka by Steve Turner",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Mazurka",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXQWpzdHNXb2ZkXzA"
+    },
+    {
+        "displayName": "Muzique Mazurka",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Mazurka",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXSFFiQVMxM2lraGM"
+    },
+    {
+        "displayName": "Der_Brinner_en_Eld",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Polska (Song)",
+        "workshop": "Swedish Songs",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXRjJyaGRNU1h5aVU"
+    },
+    {
+        "displayName": "Du och Jag och Vi To (Song about clogs)",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Hottis (Song)",
+        "workshop": "Swedish Songs",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXYVM2UnhkOE9yNmc"
+    },
+    {
+        "displayName": "Waltz",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Waltz (Song)",
+        "workshop": "Swedish Songs",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXRGVNQS1WOWRZaWs"
+    },
+    {
+        "displayName": "La Chaud",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Bourrée",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXcDA5SE43d29MZGc"
+    },
+    {
+        "displayName": "Bourrée de Alfred Mourre",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Bourrée",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXSklzNXJZWW1wSWM"
+    },
+    {
+        "displayName": "Calarem Calarem Pas",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Bourrée",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXeW5lbUVUY3FKZWc"
+    },
+    {
+        "displayName": "Bourrée de l'hôpital",
+        "year": 2015,
+        "category": "Recording",
+        "tuneType": "Bourrée",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXUjE5Y05meWNGYm8"
+    },
+    {
+        "displayName": "Bourrée de l'hôpital",
+        "year": 2015,
+        "category": "Sheet Music",
+        "tuneType": "Bourrée",
+        "workshop": "French Tunes",
+        "source": "https://drive.google.com/open?id=0B36gCreiztaXSHZJQmFjcHpEVGs"
+    }
 ]
