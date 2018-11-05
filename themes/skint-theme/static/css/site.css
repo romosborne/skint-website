@@ -29,7 +29,7 @@ body:not(.home-body) {
     height: 80px;
 }
 
-.skint-nav .nav>li>a, .skint-nav .nav>li.active>a {
+.skint-nav .nav>li>a, .skint-nav .nav>li.active>a{
     font-weight: 600;
     color: #000;
 }
@@ -100,6 +100,39 @@ table.resource-table {
 .resource-row:hover {
     background-color: #ff7f2a;
     border: 1px solid #d95d29;
+}
+
+
+@media (min-width: 767px) {
+    #resource-filter-input {
+        width:50%;
+        display: inline-block;
+    }
+}
+
+.year-filters {
+    margin-top:20px;
+}
+
+.year-filters .year-filter.selected{
+    background-color: #d95d29;
+    border-left: 1px solid #d95d29;
+    border-right: 1px solid #d95d29;
+}
+
+.year-filters .year-filter:hover {
+    background-color: #ff7f2a;
+}
+
+.year-filters .year-filter {
+    display:inline-block;
+    height:46px;
+    width: 60px;
+    padding-top: 11px;
+    text-align:center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #000!important;
 }
 
 .booking-placeholder {
