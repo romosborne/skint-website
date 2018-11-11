@@ -17,6 +17,27 @@ $(document).ready(function() {
         self.recordings = ko.observableArray(recordings);
         self.sortBy = ko.observable("Tune Name");
         self.searchFilter = ko.observable("");
+        
+        self.years = ko.computed(function(){
+            var recordings = self.recordings();
+            var years = [];
+            ko.utils.arrayMap(recordings, function(item){
+                if(years.indexOf(item.year) == -1){
+                    years.push(item.year);
+                }
+                return item.year;
+            });
+            return years.sort();
+        });
+
+        self.selectedYear = ko.observable(null);
+
+        self.selectYear = function(year) {
+            self.selectedYear(year);
+        }
+        self.isSelectedYear = function(year){
+            return year == self.selectedYear();
+        }
 
         self.sortOptions = [
             "Tune name",
@@ -50,8 +71,14 @@ $(document).ready(function() {
         self.filteredRecordings = ko.computed(function () {
             var filtered = self.recordings();
 
+            if(!!self.selectedYear()){
+                filtered = ko.utils.arrayFilter(filtered, function(recording){
+                    return recording.year == self.selectedYear();
+                });
+            }
+
             if (self.searchFilter() != "") {
-                filtered = ko.utils.arrayFilter(self.recordings(), function (recording) {
+                filtered = ko.utils.arrayFilter(filtered, function (recording) {
                     var isContained = true;
                     var parts = self.searchFilter().split(' ');
 
