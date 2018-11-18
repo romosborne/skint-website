@@ -1,3 +1,9 @@
-{{ partial "head" . }}
-{{ partial "error-404" . }}
-{{ partial "foot" . }}
+{{ define "header" }}{{ partial "site-header.html" }}{{ end }}
+
+{{ define "main" }}
+    <article class="center cf pv5 measure-wide-l">
+      <h1>
+        This is not the page you were looking for
+      </h1>
+    </article>
+{{ end }}

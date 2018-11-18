@@ -16,10 +16,6 @@ body {
     text-align: center;
 }
 
-body > .container {
-    padding: 60px 15px 0;
-}
-
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;

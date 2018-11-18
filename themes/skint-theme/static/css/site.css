@@ -32,39 +32,48 @@ body:not(.home-body) {
 .skint-nav .nav>li>a, .skint-nav .nav>li.active>a{
     font-weight: 600;
     color: #000;
+    padding: 0 5px;
 }
 
 
-.skint-nav.navbar-default .nav>li.active,
-.skint-nav.navbar-default .nav>li.active>a {
+.skint-nav.navbar .nav>li.active,
+.skint-nav.navbar .nav>li.active>a {
     background-color: #ff7f2a;
     color: #000;
 }
 
-.skint-nav.navbar-default .nav>li:hover, 
-.skint-nav.navbar-default .nav>li:focus,
-.skint-nav.navbar-default .nav>li>a:hover, 
-.skint-nav.navbar-default .nav>li>a:focus,
-.skint-nav.navbar-default .nav>li.active:hover, 
-.skint-nav.navbar-default .nav>li.active:focus,
-.skint-nav.navbar-default .nav>li.active>a:hover, 
-.skint-nav.navbar-default .nav>li.active>a:focus,
-.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:hover,
-.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:focus,
-/*.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li.active>a,*/
+.skint-nav.navbar .nav>li{
+    padding: 10px
+}
+
+.navbar li.dropdown>a.dropdown-toggle{
+    color: #000
+}
+
+.skint-nav.navbar .nav>li:hover, 
+.skint-nav.navbar .nav>li:focus,
+.skint-nav.navbar .nav>li>a:hover, 
+.skint-nav.navbar .nav>li>a:focus,
+.skint-nav.navbar .nav>li.active:hover, 
+.skint-nav.navbar .nav>li.active:focus,
+.skint-nav.navbar .nav>li.active>a:hover, 
+.skint-nav.navbar .nav>li.active>a:focus,
+.skint-nav.navbar .navbar-nav .open .dropdown-menu-skint >li>a:hover,
+.skint-nav.navbar .navbar-nav .open .dropdown-menu-skint >li>a:focus,
+/*.skint-nav.navbar .navbar-nav .open .dropdown-menu-skint >li.active>a,*/
 .dropdown-menu-skint li>a:hover {
     background-color: #d95d29;
     color: #000;
 }
 
 @media (max-width: 767px) {
-.skint-nav.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+.skint-nav.navbar .navbar-nav .open .dropdown-menu>li>a {
     color: #000;
 }
 
 
-.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:hover,
-.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:focus{
+.skint-nav.navbar .navbar-nav .open .dropdown-menu-skint >li>a:hover,
+.skint-nav.navbar .navbar-nav .open .dropdown-menu-skint >li>a:focus{
     background-color: #d95d29;
     color: #000;
 }
@@ -93,7 +102,7 @@ table.resource-table {
     color: #000;
 }
 
-.resource-table .media-object {
+.resource-table i {
     font-size: x-large;
 }
 
@@ -108,10 +117,6 @@ table.resource-table {
         width:50%;
         display: inline-block;
     }
-}
-
-.year-filters {
-    margin-top:20px;
 }
 
 .year-filters .year-filter.selected{

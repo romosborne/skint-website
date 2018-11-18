@@ -6,5 +6,6 @@ theme: skint-theme
 
 params:
   googleAnalytics: ""
+  favicon: "inkscape/favicon.ico"
 
 disableKinds: ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
