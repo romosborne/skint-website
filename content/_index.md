@@ -3,8 +3,6 @@ title: Skint
 date: 2017-03-11T00:00:55+00:00
 ---
 
-# Skint
-
 ### What is Skint?
 Skint is a weekend of international music and dance, held each year in Derbyshire, England. One of the main aims of Skint is to make European folk dance and music accessible to all, particularly to those who may be unable to afford festivals in the UK or abroad. You can read more about our aims in our constitution.
 
