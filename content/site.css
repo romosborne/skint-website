@@ -1,0 +1,128 @@
+.skint-container {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+body:not(.home-body) {
+    background: url("/inkscape/dancers.svg") no-repeat;
+    background-size: 100%;
+}
+
+.skint-header-img {
+    width:100%;
+}
+
+.skint-unobtrusive-img {
+    padding-left:0;
+    margin-left:0;
+    /*max-height:60px;*/
+}
+
+.skint-nav {
+    border: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.skint-nav .navbar-brand {
+    height: 80px;
+}
+
+.skint-nav .nav>li>a, .skint-nav .nav>li.active>a {
+    font-weight: 600;
+    color: #000;
+}
+
+
+.skint-nav.navbar-default .nav>li.active,
+.skint-nav.navbar-default .nav>li.active>a {
+    background-color: #ff7f2a;
+    color: #000;
+}
+
+.skint-nav.navbar-default .nav>li:hover, 
+.skint-nav.navbar-default .nav>li:focus,
+.skint-nav.navbar-default .nav>li>a:hover, 
+.skint-nav.navbar-default .nav>li>a:focus,
+.skint-nav.navbar-default .nav>li.active:hover, 
+.skint-nav.navbar-default .nav>li.active:focus,
+.skint-nav.navbar-default .nav>li.active>a:hover, 
+.skint-nav.navbar-default .nav>li.active>a:focus,
+.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:hover,
+.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:focus,
+/*.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li.active>a,*/
+.dropdown-menu-skint li>a:hover {
+    background-color: #d95d29;
+    color: #000;
+}
+
+@media (max-width: 767px) {
+.skint-nav.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+}
+
+
+.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:hover,
+.skint-nav.navbar-default .navbar-nav .open .dropdown-menu-skint >li>a:focus{
+    background-color: #d95d29;
+    color: #000;
+}
+}
+
+.resource-row {
+    padding:20px;
+    margin:20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+table.resource-table {
+    margin-top: 20px;
+}
+
+.resource-table a:hover,
+.resource-table a *:hover {
+    cursor: pointer;
+}
+
+.resource-table tr:hover {
+    background-color: #ff7f2a;
+}
+.resource-table tr:hover a {
+    color: #000;
+}
+
+.resource-table .media-object {
+    font-size: x-large;
+}
+
+.resource-row:hover {
+    background-color: #ff7f2a;
+    border: 1px solid #d95d29;
+}
+
+.booking-placeholder {
+    height: 400px;
+    padding:20px;
+    border: 1px solid black;
+}
+
+.map-placeholder {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+    border: 1px solid black;
+}
+
+.centre-align {
+    text-align: center;
+}
+
+.skint-footer {
+    font-size: x-small;
+    color: #999;
+}
+
+.input-group-addon {
+    background-color: transparent!important;
+}
