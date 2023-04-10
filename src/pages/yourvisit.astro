@@ -1,0 +1,242 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import car from "../img/yourVisit/car.jpg";
+import indoorCamping from "../img/yourVisit/indoorCamping.jpg";
+import food from "../img/yourVisit/food.jpg";
+import explore from "../img/yourVisit/explore.jpg";
+---
+
+<Layout title={"Your Visit"}>
+  <div>
+    <div class="row striped py-3">
+      <div class="col-lg-6 order-lg-last">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2391.964782681162!2d-1.478728048994796!3d53.16467119590682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798f01f833bedb%3A0x36299d8139872251!2sAshover+Parish+Hall!5e0!3m2!1sen!2suk!4v1459949293259"
+          ></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2>Where is it?</h2>
+        <p>
+          Skint takes place in Ashover Village Hall. Ashover is a Derbyshire
+          village situated in the Amber valley, just outside the Peak District
+          National Park, 4 miles north east of Matlock. It lies off the B6036
+          Matlock to Chesterfield road.
+        </p>
+
+        <p>The hall is on Milken Lane, opposite the Black Swan pub.</p>
+
+        <p>
+          <a href="http://goo.gl/maps/ll0k"
+            >Ashover Parish Hall, Milken Lane, Ashover, Derbyshire S45 0BA</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="row striped py-3">
+      <div class="col-lg-6">
+        <img src={car} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-lg-6 order-lg-last">
+        <h2>Getting here?</h2>
+        <h4>Train, bus & taxis</h4>
+        <p>
+          The nearest train station is Chesterfield. Matlock and Sheffield
+          stations are also nearby.
+        </p>
+
+        <p>
+          Bus number 63 goes from Chesterfield to Ashover village, and number
+          X17 goes from Sheffield/ Chesterfield to Kelstedge (1 mile walk to
+          Ashover village hall). Buses are fairly regular but not frequent so
+          it's worth <a target="_blank" href="https://www.traveline.info/"
+            >checking times in advance</a
+          >
+        </p>
+
+        <p>
+          Chesterfield Station's <a
+            target="_blank"
+            href="https://www.nationalrail.co.uk/posters/CHD.pdf"
+            >onward travel information</a
+          > has useful information about bus stop locations, as well as local taxi
+          information in case you happen to arrive at a time when no buses are running:
+        </p>
+
+        <p>
+          If you're planning to take a taxi from the station, you might want to
+          make use of the Skint car- sharing site to find others to share the
+          taxi with (see below).
+        </p>
+
+        <h4>Car parking</h4>
+
+        <p>There is plenty of parking at the venue.</p>
+
+        <h4>Lift sharing</h4>
+
+        <p>
+          We encourage lift-sharing where possible. If you have a car, please
+          consider offering spaces to other Skinters. If you can drive but don't
+          have a car, maybe it's worth getting a group together to hire one for
+          the weekend.
+        </p>
+
+        <p>
+          To help with coordinating car shares we'll be sending out a link to a
+          Skint-specific car sharing site to all attendees, so keep an eye out
+          in your emails.
+        </p>
+      </div>
+    </div>
+
+    <div class="row striped py-3">
+      <div class="col-lg-6 order-lg-last">
+        <img src={indoorCamping} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-lg-6">
+        <h2>Accommodation</h2>
+
+        <h4>Stay with us</h4>
+
+        <p>
+          As part of your weekend ticket you will have the option for indoor or
+          outdoor camping. Campers of both varieties have access to the showers
+          in the Sports Pavilion next door at certain times during the weekend.
+          The showers are coin-operated with 20p pieces, so please bring some
+          with you! There are communal showers for males/ females, as well as a
+          separate accessible shower for anyone who prefers to shower alone.
+        </p>
+
+        <p>
+          If you are camping indoors please bring a sleeping bag, mat, and
+          pillow. As everyone is sleeping in close proximity and there may be
+          music late into the night in adjoining rooms, we suggest that you
+          bring earplugs!
+        </p>
+
+        <p>
+          If you are camping outdoors, please bring a sleeping bag, mat, pillow,
+          lots of warm layers, and a tent! There is a small amount of
+          hardstanding for campervans on the camping field. Outdoor camping is
+          in the field next to the village hall. You are not allowed to sleep in
+          the hall carpark by order of the council (this will be externally
+          enforced).
+        </p>
+
+        <h4>Stay elsewhere</h4>
+
+        <p>
+          Some people like to sleep in a real bed. If that's you, you can look
+          for your own accommodation in the village. Here are some ideas to get
+          you started:
+        </p>
+
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.titanicbrewery.co.uk/our-pubs/the-old-poets-corner/"
+              >Old Poets Corner</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://stampcoffeeshop.com/accommodation"
+              >Stamp Coffee shop</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.airbnb.co.uk/">Airbnb</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row striped py-3">
+      <div class="col-lg-6">
+        <img src={food} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-lg-6">
+        <h2>Food & Drink</h2>
+
+        <h4>At Skint</h4>
+
+        <p>
+          All food at Skint is delicious, vegetarian, and prepared by
+          Skint-goers themselves. We do cater for other dietary requirements and
+          allergies - please let us know when booking. If you'd like to join in
+          the Skint catering, make sure you include meals in your ticket when
+          you book.
+        </p>
+
+        <p>
+          Water, juice, tea, and coffee are provided, as well as late-night
+          snacks. You're welcome to join in these whether you have a meal ticket
+          or not.
+        </p>
+
+        <p>There's no bar on-site. Feel free to bring your own drinks.</p>
+
+        <h4>Nearby</h4>
+        <p>
+          There are several pubs and cafes in the village that offer fantastic
+          food and drinks
+        </p>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/dwbown/"
+              >D W Brown Butchers</a
+            > - (actually more like a farm shop/ corner shop) - Mon-Sun, ~8am-3 or
+            4pm, closed over lunchtimet
+          </li>
+          <li>
+            <a target="_blank" href="https://stampcoffeeshop.com">Stamp Cafe</a>
+            - Breakfast and lunch, Mon-Sat
+          </li>
+          <li>
+            <a target="_blank" href="https://www.theblackswanashover.com"
+              >Black Swan</a
+            > - Lunch and dinner, Tues-Sun
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/TheCrispinInn"
+              >Crispin Inn</a
+            > - Lunch and dinner, Mon-Sun
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.titanicbrewery.co.uk/our-pubs/the-old-poets-corner/"
+              >Old Poets Corner</a
+            > - Lunch and dinner, Tues-Sat
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row striped py-3">
+      <div class="col-lg-6 order-lg-last">
+        <img src={explore} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-lg-6">
+        <h2>Explore the area</h2>
+
+        <p>
+          Ashover is surrounded by beautiful countryside, great for taking a
+          breather from the festival. Some good landmarks/ viewing points within
+          walking distance are <a
+            target="_blank"
+            href="https://www.greatbritishlife.co.uk/things-to-do/walks/county-walk-ashover-6501638"
+            >Ashover Rock</a
+          > (~ 1 mile) and <a
+            target="_blank"
+            href="http://www.derbyshire-peakdistrict.co.uk/ashoverwalk.htm"
+            >Cocking Tor</a
+          >
+          (~ 2 miles).
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

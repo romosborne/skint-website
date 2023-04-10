@@ -1,0 +1,87 @@
+---
+import logo from "../img/logo.svg";
+---
+
+<div class="skint-colour-1 sticky-top">
+  <nav class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img class="skint-unobtrusive-img navbar-brand" src={logo} />
+      </a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#skint-navbar-collapse" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" />
+      </button>
+      <div class="collapse navbar-collapse" id="skint-navbar-collapse">
+        <ul class="nav navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/getinvolved">Get Involved</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tickets">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/yourvisit">Your Visit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/library">Library</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/constitution">Constitution</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactus">Contact Us</a>
+          </li>
+          <!--
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Other
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="/committee">Committee</a>
+							<a class="dropdown-item" href="/constitution">Constitution</a>
+						</div>
+					</li>
+					-->
+        </ul>
+      </div>
+  </nav>
+  <div class="container">
+    <div class="navbar navbar-expand-md navbar-dark skint-nav">
+
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  .skint-nav {
+    border: 0;
+    margin-bottom: 0;
+
+    .navbar-brand {
+      height: 80px;
+    }
+
+    .nav > li {
+      @media (min-width: 992px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        > a {
+          font-size: larger;
+        }
+      }
+      > a,
+      &.active > a {
+        font-weight: bold;
+      }
+      .dropdown-menu {
+        a:hover {
+          background-color: $skint-colour-2;
+        }
+      }
+    }
+  }
+</style>

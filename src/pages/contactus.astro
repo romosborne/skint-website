@@ -1,0 +1,37 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title={"Contact Us"}>
+  <div class="pb-1">
+    <p class="text-center">
+      If you have any questions or just want to chat, then don't hesitate to get
+      in touch!
+    </p>
+
+    <ul class="button-list text-center">
+      <li>
+        <a
+          class="btn skint-button"
+          href="https://www.facebook.com/skintdance"
+          target="_blank"><i class="fab fa-facebook-square"></i> skintdance</a>
+      </li>
+      <li>
+        <a class="btn skint-button" href="mailto:skint.dance@gmail.com"
+          ><i class="fas fa-at"></i> skint.dance@gmail.com</a>
+      </li>
+    </ul>
+  </div>
+</Layout>
+ <style lang="scss">
+
+  .button-list {
+    padding-left: 0;
+    list-style: none;
+    li {
+      margin-bottom: 20px;
+      margin-left: 20px;
+      display: inline-block;
+    }
+  }
+ </style>

@@ -1,81 +1,70 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import DatesAndBooking from "../components/DatesAndBooking.astro";
+
+import dancing1 from "../img/frontPage/dancing1.jpg";
+import music from "../img/frontPage/music1.jpg";
+import food from "../img/frontPage/food2.jpg";
+import games from "../img/frontPage/funAndGames.jpg";
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
-</Layout>
+<Layout
+  hero="A warm, budget-friendly Scandi and International folk weekend in the Peaks, where everyone pitches in to help"
+>
+  <DatesAndBooking />
 
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
+  <div>
+    <div class="row striped py-3">
+      <div class="col-md-6 order-md-last">
+        <img src={dancing1} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-md-6">
+        <h3>Dancing</h3>
+        Skint is above all a dance festival. We revel in all forms of dancing from
+        around the world but have a special love for Scandinavian and French. Whether
+        it's a twirly polska, a slinky mazurka, or a flowing contra, we have them
+        all. We teach the dances during the day and then dance until we drop in the
+        evening.
+      </div>
+    </div>
+    <div class="row striped py-3">
+      <div class="col-md-6">
+        <img style="float: right" src={music} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-md-6">
+        <h3>Music</h3>
+        What would dancing be without music? At Skint we aim to have 100% live music
+        all the time and all our live musicians are volunteers - We're here for the
+        love of the music and the dance. Our evening bals have a variety of groups
+        and scratch bands with everyone joining in. There are music workshops and
+        informal sessions throughout the day.
+      </div>
+    </div>
+    <div class="row striped py-3">
+      <div class="col-md-6 order-md-last">
+        <img src={food} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-md-6">
+        <h3>Food</h3>
+        The meals of Skint are one of the highlights of the festival. It's a time
+        when almost the entire festival is in one room, sharing one meal, and enjoying
+        the company. The food itself is consistently amazing, having been prepared
+        by festival-goers themselves. Just make sure you grab the midnight snack
+        before it goes!
+      </div>
+    </div>
+    <div class="row striped py-3">
+      <div class="col-md-6">
+        <img src={games} class="img-fluid p-2 rounded" />
+      </div>
+      <div class="col-md-6">
+        <h3>Games and silliness</h3>
+        Skint is not above some little silliness. We enjoy breaking the ice with
+        some form of game on the first night. And the games, and silliness, tend
+        to creep across the entire festival. Whether it's trolls chasing wizards,
+        passing round the boot, or simply singing silly songs, we make sure that
+        everyone has a good time.
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,35 +1,138 @@
 ---
+import "bootstrap/dist/css/bootstrap.css";
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+import Footer from "../components/Footer.astro";
+
+import favicon from "../img/favicon.ico";
+
 export interface Props {
-	title: string;
+  title?: string;
+  hero?: string;
 }
 
-const { title } = Astro.props;
+const { hero, title } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skint Dance - International Dance and Music Weekend</title>
+  <link rel="shortcut icon" type="image/x-icon" href={favicon} />
+  <link
+    href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+
+  <body class="skint-colour-2">
+    <Navbar />
+    {hero && <Hero>{hero}</Hero>}
+    <div class="container skint-container skint-colour-w rounded">
+      <main>
+        {title && <h1 class="text-center">{title}</h1>}
+        <slot />
+      </main>
+    </div>
+    <Footer />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
 </html>
-<style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
-	}
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
-	}
+
+<style lang="scss" is:global>
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .skint-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .skint-colour-1 {
+    background-color: $skint-highlight;
+  }
+
+  .skint-colour-2 {
+    background-color: #edb579;
+  }
+
+  .skint-colour-2-light {
+    background-color: #f6ddc2;
+  }
+
+  .skint-colour-w {
+    background-color: #fff;
+  }
+
+  .striped {
+    &:nth-child(odd) {
+      background-color: #fff;
+      .splash {
+        order: 1;
+      }
+    }
+
+    &:nth-child(even) {
+      background-color: #f6ddc2;
+      .splash {
+        order: 13;
+      }
+    }
+    h3 {
+      margin-top: 20px;
+    }
+  }
+
+  body:not(.home-body) {
+    font-family: "Open Sans", "sans-serif";
+  }
+
+  .skint-header-img {
+    width: 100%;
+  }
+
+  .skint-unobtrusive-img {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .centre-align {
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 25px;
+  }
+
+  .w100 {
+    width: 100%;
+  }
+
+  .skint-button {
+    background-color: $skint-highlight !important;
+    border-color: $skint-highlight !important;
+    color: white !important;
+  }
+
+  .jumbotron {
+    text-align: center;
+  }
 </style>
