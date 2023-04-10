@@ -23,9 +23,30 @@ jobs:
       - name: Install
         shell: "bash"
         run: |
-          npm install
+          npm ci
 
       - name: Build
         shell: "bash"
         run: |
           npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: skint-website
+          path: dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: skint-website
+
+      - name: Deploy to AWS
+        shell: "bash"
+        run: |
+          ls
