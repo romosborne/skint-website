@@ -10,7 +10,7 @@ import Layout from '../layouts/Layout.astro';
       To be alerted when our booking opens, please sign up to our mailing list
       below or follow us on <a href="https://www.facebook.com/skintdance">
         Facebook
-      </a>!
+      </a>
     </p>
 
     <h3>Tickets and Booking</h3>
@@ -142,67 +142,55 @@ import Layout from '../layouts/Layout.astro';
         style="background-color:#fff"
       >
         <tr>
-          <th col-span="32">Festival admission</th>
+          <th colspan="3">Festival admission</th>
         </tr>
         <tr>
-          <td></td>
           <td>Weekend admission (adult)</td>
           <td style="width:70px">&pound;22</td>
         </tr>
         <tr>
-          <td></td>
           <td>Kids weekend admission (under 16)</td>
           <td style="width:70px">&pound;0</td>
         </tr>
-        <tr></tr>
         <tr>
-          <td></td>
           <td>Friday evening bal, from 8pm</td>
           <td style="width:70px">&pound;6</td>
         </tr>
         <tr>
-          <td></td>
           <td>Saturday workshops, 10am-7pm</td>
           <td style="width:70px">&pound;6</td>
         </tr>
         <tr>
-          <td></td>
           <td>Saturday evening bal, from 8pm</td>
           <td style="width:70px">&pound;6</td>
         </tr>
         <tr>
-          <td></td>
           <td>Sunday workshops and bal, 10am-5pm</td>
           <td style="width:70px">&pound;6</td>
         </tr>
         <tr>
-          <th col-span="32">Optional Extras: Meals</th>
+          <th colspan="3">Optional Extras: Meals</th>
         </tr>
         <tr>
-          <td style="width:10px"></td>
           <td>Friday evening, 6pm</td>
           <td style="width:70px">&pound;5</td>
         </tr>
         <tr>
-          <td></td>
           <td>Saturday lunch, 1pm</td>
           <td>&pound;4</td>
         </tr>
         <tr>
-          <td></td>
           <td>Saturday evening, 6pm</td>
           <td>&pound;5</td>
         </tr>
         <tr>
-          <td></td>
           <td>Sunday lunch, 1pm</td>
           <td>&pound;4</td>
         </tr>
         <tr>
-          <th col-span="32">Optional Extras: Accommodation</th>
+          <th colspan="2">Optional Extras: Accommodation</th>
         </tr>
         <tr>
-          <td></td>
           <td>
             Indoor camping
             <div style="font-size:smaller">
@@ -213,7 +201,6 @@ import Layout from '../layouts/Layout.astro';
           <td style="width:70px">&pound;10</td>
         </tr>
         <tr>
-          <td></td>
           <td>
             Outdoor camping
             <div style="font-size:smaller">
@@ -227,3 +214,11 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </div>
 </Layout>
+
+<style lang="scss">
+  th {
+    font-weight: bold;
+    font-size: larger;
+    background-color: #dddddd !important;
+  }
+</style>
