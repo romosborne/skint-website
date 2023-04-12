@@ -1,10 +1,10 @@
 ---
-import "bootstrap/dist/css/bootstrap.css";
-import Navbar from "../components/Navbar.astro";
-import Hero from "../components/Hero.astro";
-import Footer from "../components/Footer.astro";
+import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
 
-import favicon from "../img/favicon.ico";
+import favicon from '../img/favicon.ico';
 
 export interface Props {
   title?: string;
@@ -53,7 +53,7 @@ const { hero, title } = Astro.props;
 </html>
 
 <style lang="scss" is:global>
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
   html {
     position: relative;
@@ -101,7 +101,7 @@ const { hero, title } = Astro.props;
   }
 
   body:not(.home-body) {
-    font-family: "Open Sans", "sans-serif";
+    font-family: 'Open Sans', 'sans-serif';
   }
 
   .skint-header-img {

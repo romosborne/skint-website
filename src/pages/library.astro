@@ -1,15 +1,14 @@
 ---
-import Library from "../components/Library.jsx";
-import Layout from "../layouts/Layout.astro";
+import Library from '../components/Library.jsx';
+import Layout from '../layouts/Layout.astro';
 
-import resources from "../data/resources.json";
+import resources from '../data/resources.json';
 ---
 
 <Layout title="Library">
   <div class="pb-1">
     <p>Here we store the records of Skints past.</p>
 
-    <Library resources={resources} client:load/>
-
+    <Library resources={resources} client:load />
   </div>
 </Layout>
