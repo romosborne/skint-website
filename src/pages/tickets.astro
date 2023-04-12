@@ -1,11 +1,11 @@
 ---
-import DatesAndBooking from "../components/DatesAndBooking.astro";
-import Layout from "../layouts/Layout.astro";
+import DatesAndBooking from '../components/DatesAndBooking.astro'
+import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title={"Tickets"}>
+<Layout title={'Tickets'}>
   <DatesAndBooking />
-  <div class="pb-1">
+  <div class="pt-3 pe-1">
     <p>
       To be alerted when our booking opens, please sign up to our mailing list
       below or follow us on <a href="https://www.facebook.com/skintdance"
@@ -15,70 +15,97 @@ import Layout from "../layouts/Layout.astro";
 
     <h3>Tickets and Booking</h3>
 
-    <p>
-      Tickets for Skint very customisable. Accommodation and meals are optional
-      items. This allows us to overcome the traditional limiting factor of
-      Skint, catering for all of us, and allows you to choose which parts of
-      Skint you want to enjoy.
-    </p>
+    <p>We're offfering 3 kinds of festival tickets. You only need one kind! You can book up to 2 adult places and 2 child places per customer.</p>
+
+    <ul>
+      <li><strong>Weekend ticket</strong> - Entry to the whole festival, from Friday evening to Sunday afternoon.</li>
+      <li><strong>Kids Weekend ticket</strong> - Entry is free for children under 16, please reserve a space using the free 'kids ticket' option. Please also buy meals and camping for kids as needed.</li>
+      <li><strong>Day / Evening tickets</strong> - If you're not joining us for the whole weekend, choose the times you want to come.</li>
+    </ul>
 
     <p>
-      There are some fantastic pubs in the village which serve food, as well as
-      a small shop, and of course you are welcome to bring your own food.
-      However, there will be no kitchen space or seating in the hall for
-      self-catering.
+      Accommodation and meals are optional items. This allows us to overcome the traditional limiting factor of Skint, catering for all of us, and allows you to choose which parts of Skint you want to enjoy.
     </p>
 
-    <p>You can buy tickets for 2 adults at the same time.</p>
+    <ul>
+      <li><strong>Accommodation</strong> - Choose from indoor camping (sleeping in the hall) or outdoor camping (bring a tent or campervan). Breakfast is provided for all indoor and outdoor campers</li>
+      <li><strong>Food</strong> - You need a ticket for each meal - Friday dinner, Saturday lunch, Saturday dinner, and Sunday lunch.</li>
+    </ul>
 
-    <p>
-      <strong>Tickets are non-transferrable</strong>. They allow only the named
-      person to attend. You cannot sell or give them to someone else. This is to
-      make the application process fair for everyone, and we enforce the rules.
-      In exceptional cases we may cancel tickets obtained in contravention of
-      the rules.
-    </p>
+    <p>If you forget any optional items when you first book, please fill in the booking form again using the free 'placeholder ticket' option. This is because the booking system won't let you buy meals and accommodation without tickets. Please note the placeholder ticket is not valid for entry to the festival!</p>
 
-    <h4>Cancellations and Refunds</h4>
+    <p>If you haven't bought meal tickets, you are welcome to bring your own food. We will provide seating space for those self-catering to eat packed lunches, but there will be no food storage or cooking facilities available. There are also some fantastic pubs in the village that serve food, as well as a small shop.</p>
 
-    <p>
-      Due to the exceptional circumstances this year, there will be no cut off
-      for refunds. We will be offering full refunds (minus our booking &amp;
-      banking fees) on tickets right up until the start of the festival. If your
-      circumstances change amd you are unable to attend Skint, please let us
-      know.
-    </p>
+    <p>For off-festival accommodation and food suggestions, take a look at the <a href="/yourvisit">Your Visit</a> page</p>
 
-    <h4>Children</h4>
-    <p>
-      Children under 16s don't need to buy the admission ticket, but they will
-      need to pay for any meals and camping they wish to use.
-    </p>
+    <p><strong>Tickets are non-transferrable, including meal and camping tickets.</strong> Names must be provided for each place, as tickets are only valid for the named person. You cannot sell or give them to someone else. This is to make the booking process fair for everyone. We reserve the right to cancel tickets obtained in contravention of the rules</p>
+
+    <h3>Discounts and Donations</h3>
+
+    <p>We want Skint to be accessible to everyone. If you're struggling with the cost of attending, please use the discount code REALLYSKINT for an automatic £10 off the ticket price. We also have a small fund to support people to come who otherwise wouldn't be able to afford it, even with the discount. If that's you, please <a href="/contactus">get in touch</a></p>
+
+    <p>On the other hand, if you can afford a bit more we're offering the option to 'sponsor a Skinter' by adding a donation when you book.</p>
+
+    <h3>Cancellations and Refunds</h3>
+
+    <p>If your circumstances change & you are unable to attend Skint, please let us know <a href="mailto:skint.dance@gmail.com">by email</a></p>
+
+    <p>Cancellations up to 30th September - 75% refund.</p>
+    <p>Concellations from 1st October - no refund will be given.</p>
+
+    <h3>Waiting list</h3>
+
+    <p>We are NOT operating a waiting list for tickets!</p>
+
+    <ul>
+      <li>If festival tickets become available due to cancellations they will immediately become available on the booking site, so please check back there.</li>
+      <li>Releasing meal tickets is a manual process, so cancelled meal tickets won't appear automatically. Instead, we will release any available meal tickets at <strong>7pm on Friday 27th October.</strong> Save the date!</li>
+    </ul>
+
+<p>All tickets are being sold online. If day or evening tickets are sold out online, there won't be any extra to buy on the door so please buy your tickets before you come.</p>
 
     <h3>Costs</h3>
     <div class="container" style="margin-bottom:20px">
-      <div class="row justify-content-start">
-        <div class="col-md-6">
-          <h5>In advance</h5>
           <table
             class="table table-condensed table-bordered"
             style="background-color:#fff"
           >
             <tr>
-              <th colspan="32">A place at Skint</th>
+              <th col-span="32">Festival admission</th>
             </tr>
             <tr>
               <td></td>
-              <td>Admission (adult)</td>
+              <td>Weekend admission (adult)</td>
               <td style="width:70px">&pound;22</td>
             </tr>
             <tr>
               <td></td>
-              <td>Admission (under 16)</td>
+              <td>Kids weekend admission (under 16)</td>
               <td style="width:70px">&pound;0</td>
             </tr>
+            <tr></tr>
             <tr>
-              <th colspan="32">Meals</th>
+              <td></td>
+              <td>Friday evening bal, from 8pm</td>
+              <td style="width:70px">&pound;6</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Saturday workshops, 10am-7pm</td>
+              <td style="width:70px">&pound;6</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Saturday evening bal, from 8pm</td>
+              <td style="width:70px">&pound;6</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Sunday workshops and bal, 10am-5pm</td>
+              <td style="width:70px">&pound;6</td>
+            </tr>
+            <tr>
+              <th col-span="32">Optional Extras: Meals</th>
             </tr>
             <tr>
               <td style="width:10px"></td>
@@ -101,12 +128,12 @@ import Layout from "../layouts/Layout.astro";
               <td>&pound;4</td>
             </tr>
             <tr>
-              <th colspan="32">Camping</th>
+              <th col-span="32">Optional Extras: Accommodation</th>
             </tr>
             <tr>
               <td></td>
               <td
-                >Indoor
+                >Indoor camping
                 <div style="font-size:smaller">
                   Friday & Saturday nights. Camping in the hall. Bring camping
                   mat, sleeping bag & ear plugs!
@@ -117,7 +144,7 @@ import Layout from "../layouts/Layout.astro";
             <tr>
               <td></td>
               <td
-                >Outdoor
+                >Outdoor camping
                 <div style="font-size:smaller">
                   Friday & Saturday nights. Camping in a nearby field. Bring a
                   tent & thermals!
@@ -127,40 +154,5 @@ import Layout from "../layouts/Layout.astro";
             </tr>
           </table>
         </div>
-        <div class="col-md-6">
-          <h5>On the door</h5>
-          <table
-            class="table table-condensed table-bordered"
-            style="background-color:#fff"
-          >
-            <tr>
-              <th colspan="32">Dancing and Workshops</th>
-            </tr>
-            <tr>
-              <td style="width:10px"></td>
-              <td>Friday evening bal, from 8pm</td>
-              <td style="width:70px">&pound;6</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Saturday workshops</td>
-              <td>&pound;6</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Saturday evening bal, from 8pm</td>
-              <td>&pound;6</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Sunday workshops and bal</td>
-              <td>&pound;6</td>
-            </tr>
-          </table>
-
-          Meal tickets are not available on the door.
-        </div>
-      </div>
-    </div>
   </div>
 </Layout>
