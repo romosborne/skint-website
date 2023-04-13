@@ -1,6 +1,6 @@
-import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "./Library.scss";
+import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import './Library.scss';
 
 interface Resource {
   displayName: string;
@@ -18,8 +18,8 @@ const ToRow = (r: Resource) => {
         <div className="media">
           <i
             className={
-              "me-3 fas " +
-              (r.category === "Recording" ? "fa-music" : "fa-file")
+              'me-3 fas ' +
+              (r.category === 'Recording' ? 'fa-music' : 'fa-file')
             }
             title={r.category}
           ></i>
@@ -46,8 +46,8 @@ const Library = (x: { resources: Resource[] }) => {
     const normalize = (s: string | null) =>
       s
         ?.toLocaleLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
 
     const nSearchFilter = normalize(searchFilter);
 
@@ -81,7 +81,7 @@ const Library = (x: { resources: Resource[] }) => {
         <span className="year-filters">
           <a>
             <div
-              className={"year-filter " + (!yearFilter ? "selected" : "")}
+              className={'year-filter ' + (!yearFilter ? 'selected' : '')}
               onClick={() => setYearFilter(null)}
             >
               All
@@ -91,7 +91,7 @@ const Library = (x: { resources: Resource[] }) => {
             <a key={y}>
               <div
                 className={
-                  "year-filter " + (y === yearFilter ? "selected" : "")
+                  'year-filter ' + (y === yearFilter ? 'selected' : '')
                 }
                 onClick={() => setYearFilter(y)}
               >

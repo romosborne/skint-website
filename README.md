@@ -1,7 +1,8 @@
 # The Skint Website
 
-**TEST:**: [test.skint](http://test.skint.s3-website-eu-west-1.amazonaws.com/)
-**LIVE:**: [https://www.skintdance.org.uk/](https://www.skintdance.org.uk/)
+**TEST:** [test.skint](http://test.skint.s3-website-eu-west-1.amazonaws.com/)
+
+**LIVE:** [https://www.skintdance.org.uk/](https://www.skintdance.org.uk/)
 
 ## 🚀 Project Structure
 
