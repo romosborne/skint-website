@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+import lp1 from '../img/lostProperty/lp1.jpg';
+import lp2 from '../img/lostProperty/lp2.jpg';
+import lp3 from '../img/lostProperty/lp3.jpg';
+import lp4 from '../img/lostProperty/lp4.jpg';
+import lp5 from '../img/lostProperty/lp5.jpg';
+import lp6 from '../img/lostProperty/lp6.jpg';
+import lp7 from '../img/lostProperty/lp7.jpg';
+---
+
+<Layout title={'Lost Property'}>
+  <p>
+    Every year at Skint a few things get left behind. If you recognise anything
+    please let us know and we can try and reunite them with their owners.
+  </p>
+  <div class="row row-cols-1 row-cols-sm-2 py-3">
+    <div class="col">
+      <img src={lp1} class="img-fluid p-2 rounded" />
+    </div>
+    <div class="col">
+      <img src={lp2} class="img-fluid p-2 rounded" />
+    </div>
+    <div class="col">
+      <img src={lp3} class="img-fluid p-2 rounded" />
+    </div>
+    <div class="col">
+      <img src={lp4} class="img-fluid p-2 rounded" />
+    </div>
+    <div class="col">
+      <img src={lp5} class="img-fluid p-2 rounded" />
+    </div>
+    <div class="col">
+      <img src={lp6} class="img-fluid p-2 rounded" />
+    </div>
+    <div class="col">
+      <img src={lp7} class="img-fluid p-2 rounded" />
+    </div>
+  </div>
+</Layout>
