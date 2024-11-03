@@ -8,6 +8,23 @@ import lp4 from '../img/lostProperty/lp4.jpg';
 import lp5 from '../img/lostProperty/lp5.jpg';
 import lp6 from '../img/lostProperty/lp6.jpg';
 import lp7 from '../img/lostProperty/lp7.jpg';
+
+const imagesIds = [
+  '13tXWnRLNhbkZvuuEQANe7x0ouJ4iK-ko',
+'13Wsd4z4d7MbWMCTWc_vtSMgdGR0GUU1T', 
+'13X0PwB_6Mx4t3mZLIQvLJ1wxYHxOfYnS', 
+'13c5xrRKgzVdrBFwGIkz3ygL1FKIbDFha', 
+'13gK2MCSM2YS7Y-0eQv0acw0-AnDNVeJd', 
+'13hSbHHUbLBcC_YKRAFL25iKzvjyhKLSR', 
+'13l7Nwweo7Ie-SLUpynrJLuhTjaaxizJR', 
+'13m-sBt5Z_2G72IM3Xuj1VZhkNT1jRPHx', 
+'13mpGjO7efbBp0-NN8KOa8eg5ng_nGBqj', 
+'13sNYiTP-uzdEiWZ9XT7AZi0CaZgvgTuP', 
+'13tXWnRLNhbkZvuuEQANe7x0ouJ4iK-ko'
+
+]
+
+// https://drive.google.com/file/d/13Wsd4z4d7MbWMCTWc_vtSMgdGR0GUU1T/view?usp=sharing, https://drive.google.com/file/d/13X0PwB_6Mx4t3mZLIQvLJ1wxYHxOfYnS/view?usp=sharing, https://drive.google.com/file/d/13c5xrRKgzVdrBFwGIkz3ygL1FKIbDFha/view?usp=sharing, https://drive.google.com/file/d/13gK2MCSM2YS7Y-0eQv0acw0-AnDNVeJd/view?usp=sharing, https://drive.google.com/file/d/13hSbHHUbLBcC_YKRAFL25iKzvjyhKLSR/view?usp=sharing, https://drive.google.com/file/d/13l7Nwweo7Ie-SLUpynrJLuhTjaaxizJR/view?usp=sharing, https://drive.google.com/file/d/13m-sBt5Z_2G72IM3Xuj1VZhkNT1jRPHx/view?usp=sharing, https://drive.google.com/file/d/13mpGjO7efbBp0-NN8KOa8eg5ng_nGBqj/view?usp=sharing, https://drive.google.com/file/d/13sNYiTP-uzdEiWZ9XT7AZi0CaZgvgTuP/view?usp=sharing, https://drive.google.com/file/d/13tXWnRLNhbkZvuuEQANe7x0ouJ4iK-ko/view?usp=sharing
 ---
 
 <Layout title={'Lost Property'}>
@@ -16,26 +33,10 @@ import lp7 from '../img/lostProperty/lp7.jpg';
     please let us know and we can try and reunite them with their owners.
   </p>
   <div class="row row-cols-1 row-cols-sm-2 py-3">
-    <div class="col">
-      <img src={lp1} class="img-fluid p-2 rounded" />
-    </div>
-    <div class="col">
-      <img src={lp2} class="img-fluid p-2 rounded" />
-    </div>
-    <div class="col">
-      <img src={lp3} class="img-fluid p-2 rounded" />
-    </div>
-    <div class="col">
-      <img src={lp4} class="img-fluid p-2 rounded" />
-    </div>
-    <div class="col">
-      <img src={lp5} class="img-fluid p-2 rounded" />
-    </div>
-    <div class="col">
-      <img src={lp6} class="img-fluid p-2 rounded" />
-    </div>
-    <div class="col">
-      <img src={lp7} class="img-fluid p-2 rounded" />
-    </div>
+    {imagesIds.map((id) => (
+      <div class="col">
+        <img src=`https://drive.google.com/thumbnail?id=${id}&sz=w1000` class="img-fluid rounded p-2"/>
+      </div>
+    ))}
   </div>
 </Layout>
