@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@astrojs/react": "^2.1.1",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@popperjs/core": "^2.11.7",
     "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
