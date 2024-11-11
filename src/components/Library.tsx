@@ -1,33 +1,39 @@
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Library.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile, faMusic, faUtensils } from '@fortawesome/free-solid-svg-icons';
+
+type ResourceCategory = 'Recipe' | 'Recording' | 'Sheet Music';
 
 interface Resource {
   displayName: string;
   year: number;
-  category: string;
-  tuneType: string;
-  workshop: string;
+  category: ResourceCategory;
+  tuneType?: string;
+  workshop?: string;
   source: string;
 }
 
-const ToRow = (r: Resource) => {
+const ResourceRow = (r: Resource) => {
+  const icon =
+    r.category === 'Recording'
+      ? faMusic
+      : r.category === 'Recipe'
+      ? faUtensils
+      : faFile;
   return (
     <tr key={`${r.displayName}-${r.category}`}>
       <td>
         <div className="media">
-          <i
-            className={
-              'me-3 fas ' +
-              (r.category === 'Recording' ? 'fa-music' : 'fa-file')
-            }
-            title={r.category}
-          ></i>
+          <FontAwesomeIcon className="me-3 display-6" icon={icon} />
           <div className="media-body">
             <a href={`/resources/${r.year}/${r.source}`} target="_blank">
               <h5 className="media-heading">{r.displayName}</h5>
             </a>
-            <div>{`${r.tuneType}, from ${r.workshop} ${r.year}`}</div>
+            <div>{`${r.tuneType ? r.tuneType : r.category}, from ${
+              r.workshop ? `${r.workshop} ` : ''
+            }${r.year}`}</div>
           </div>
         </div>
       </td>
@@ -35,11 +41,10 @@ const ToRow = (r: Resource) => {
   );
 };
 
-const Library = (x: { resources: Resource[] }) => {
+const Library = ({ resources }: { resources: Resource[] }) => {
   const [yearFilter, setYearFilter] = useState<number | null>(null);
   const [searchFilter, setSearchFilter] = useState<string | null>(null);
 
-  const resources = x.resources;
   const years = [...new Set(resources.map((r) => r.year))];
 
   const filter = (r: Resource) => {
@@ -53,7 +58,7 @@ const Library = (x: { resources: Resource[] }) => {
 
     const nDisplayName = normalize(r.displayName);
     const nCategrory = normalize(r.category);
-    const nTuneType = normalize(r.tuneType);
+    const nTuneType = normalize(r.tuneType ?? '');
 
     return (
       (!yearFilter || r.year === yearFilter) &&
@@ -108,7 +113,7 @@ const Library = (x: { resources: Resource[] }) => {
             {resources
               .filter(filter)
               .sort((a, b) => a.displayName.localeCompare(b.displayName))
-              .map(ToRow)}
+              .map(ResourceRow)}
           </tbody>
         </table>
       </div>
