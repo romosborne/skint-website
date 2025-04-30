@@ -1,6 +1,8 @@
 ---
 import DatesAndBooking from '../components/DatesAndBooking.astro';
 import Layout from '../layouts/Layout.astro';
+
+import { REFUND_DATE } from '../constants';
 ---
 
 <Layout title={'Tickets'}>
@@ -13,11 +15,38 @@ import Layout from '../layouts/Layout.astro';
       </a>
     </p>
 
+    <p>
+      Booking for Skint 2025 will take place in 3 rounds:
+      <h5>Main ticket release</h5>
+      <p>
+        <strong>7pm UK time on Thursday 3rd July 2025</strong> - We will release
+        most Skint tickets in the first round, so if you already know you want to
+        come we recommend booking on this date.
+      </p>
+      <h5>Second ticket release</h5>
+      <p>
+        <strong>7pm UK time on Thursday 9th October 2025</strong> - We will release
+        a smaller number of tickets a month before Skint, so that new dancers & those
+        that have only just discovered balfolk over the summer have a chance to come
+        too.
+      </p>
+      <h5>Third ticket release</h5>
+      <p>
+        <strong>7pm UK time on Thursday 9th October 2025</strong> - There are usually
+        a handful of last-minute spaces due to cancellations in the run up to Skint.
+        These will be made available in the 3rd ticket release. Any additional spaces
+        due to cancellations after this date will become available on the website
+        as soon as they are processed.
+      </p>
+    </p>
+
     <h3>Tickets and Booking</h3>
 
     <p>
       We're offfering 3 kinds of festival tickets. You only need one kind! You
-      can book up to 2 adult places and 2 child places per customer.
+      can book up to 2 adult places and 2 child places per customer - if there
+      are more people than this in your group you will need to make more than
+      one booking.
     </p>
 
     <ul>
@@ -56,12 +85,13 @@ import Layout from '../layouts/Layout.astro';
 
     <div class="p-1 mb-4 bg-body-secondary rounded-3">
       <div class="container-fluid py-5">
-        <h3>Meals Update 2024</h3>
+        <h3>Meals Update 2025</h3>
         <p>
           Our fantastic catering team would love to feed everyone at the
           festival, so this year they've taken on the challenge of cooking more
-          meals than ever. We'll be making 125 tickets available per meal
-          instead of 100.
+          meals than ever. We'll be making 150 tickets available per meal, which
+          we think will be enough to feed pretty much everyone that want to join
+          in the communal meals.
         </p>
         <p>
           Please help us out in our mission to be inclusive by thinking about
@@ -110,26 +140,19 @@ import Layout from '../layouts/Layout.astro';
       us know <a href="mailto:skint.dance@gmail.com">by email</a> as soon as possible
     </p>
 
-    <p>Cancellations up to 30th September - 75% refund.</p>
-    <p>Cancellations from 1st October - no refund will be given.</p>
+    <p>Cancellations up to {REFUND_DATE} - 75% refund.</p>
+    <p>Cancellations after {REFUND_DATE} - no refund will be given.</p>
 
-    <h3>Second Ticket Release</h3>
-
-    <p>
-      Any available tickets from returns and cancellations will be released on
-      the website at <strong>7pm UK time on Thursday 3rd October 2024.</strong>
-    </p>
+    <h3>Waiting list & last-minute tickets</h3>
 
     <p>
-      This includes festival tickets and meal tickets. There is no waiting list
-      for tickets - instead, please check back on the website at 7pm on Thursday
-      3rd October.
-    </p>
-
-    <p>
-      After the second ticket release date, if any tickets become available due
-      to cancellations they will immediately become available on the booking
-      site, so please check back there
+      This includes festival tickets and meal tickets. There is <u>
+        no waiting list
+      </u> for tickets, including festival tickets and meal tickets. Instead, please
+      check the website on the ticket release dates listed at the top of the page.
+      After the third ticket release date, if any tickets become available due to
+      cancellations they will immediately become available on the booking site, so
+      please check back there.
     </p>
 
     <p>
@@ -144,7 +167,7 @@ import Layout from '../layouts/Layout.astro';
     <p>
       You will be offered booking protection as part of the booking process. The
       heading is slightly misleading as your tickets are already refundable up
-      to 30th September.
+      to {REFUND_DATE}.
     </p>
     <p>
       Additional ticket protection is offered automatically by XCover and
@@ -159,9 +182,9 @@ import Layout from '../layouts/Layout.astro';
     <p>
       A full weekend ticket with all meals and camping costs <strong>
         £53
-      </strong> (or <strong>£30</strong> for children). We let you pick and choose
-      which parts you want, so your total price per person may come to less than
-      this.
+      </strong> (or <strong>£30</strong> for children under 16). We let you pick
+      and choose which parts you want, so your total price per person may come to
+      less than this.
     </p>
 
     <div class="container" style="margin-bottom:20px">

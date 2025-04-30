@@ -1,0 +1,9 @@
+---
+import { FACEBOOK_EVENT_ID, YEAR } from '../constants';
+
+const { text } = Astro.props;
+
+const displayText = text ?? `Skint ${YEAR} Facebook event`;
+---
+
+<a href=`${FACEBOOK_EVENT_ID}` target="_blank">{displayText}</a>

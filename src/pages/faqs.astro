@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import FacebookEventLink from '../components/FacebookEventLink.astro';
+
+import { REFUND_DATE } from '../constants';
 ---
 
 <Layout title={'FAQs'}>
@@ -12,9 +15,9 @@ import Layout from '../layouts/Layout.astro';
           <li>Hard cases for your musical instruments</li>
           <li>Dance shoes - smooth soles are best for this style of dancing</li>
           <li>
-            A towel, plus 20p pieces for the showers. Showers are communal
-            (male/ female), but there's also an accessible shower for those who
-            need more space or want to shower solo.
+            A towel. Showers are communal (male/ female), but there's also an
+            accessible shower for those who need more space or want to shower
+            solo.
           </li>
           <li>Sleeping bag, mat, pillow (if you're indoor camping)</li>
           <li>
@@ -47,12 +50,9 @@ import Layout from '../layouts/Layout.astro';
         </h4>
 
         <p>
-          Yes, you can connect with others through the <a
-            href="https://www.facebook.com/events/1443608362851048"
-          >
-            Skint 2024 facebook event
-          </a>. This is a great place to ask questions, borrow sleeping bags,
-          and share travel plans. Click on the ‘discussion’ tab to see other
+          Yes, you can connect with others through the <FacebookEventLink />.
+          This is a great place to ask questions, borrow sleeping bags, and
+          share travel plans. Click on the ‘discussion’ tab to see other
           people’s posts and join the conversation.
         </p>
       </div>
@@ -235,14 +235,43 @@ import Layout from '../layouts/Layout.astro';
           here:
         </p>
 
+        <h4>
+          Help, the ticket site won’t let me add as many festival tickets as I
+          need! How can I add an extra adult/ child ticket to my booking?
+        </h4>
+        <p>
+          We limit bookings to 2 adults and 2 kids per customer. This is to
+          prevent block booking of tickets, and also to make sure that there are
+          enough adults to supervise kids throughout the festival. If you have
+          more than 2 adults (aged 16 or over) in your family or group, you’ll
+          need to make two separate bookings. Likewise if you want to bring 3
+          children you’ll need to make two bookings, each one with an adult
+          attached to it.
+        </p>
+
+        <p>
+          If it all goes wrong, don’t worry! <a
+            href="mailto:skint.dance@gmail.com"
+          >
+            Send us an email
+          </a> with what you think has happened and we’ll get it sorted
+        </p>
+
         <h4>Is there a waiting list for tickets and can I be put on it?</h4>
         <p>
           We don’t have a waiting list. We’ve decided the fairest way to
           reallocate tickets is to release them all on the same day, so you
           don’t need to keep checking the website. Any available festival and
           meal tickets from returns and cancellations will be released on the
-          website as part of a second ticket release at 7pm UK time on Thursday
-          3rd October 2024.
+          website on these dates:
+          <ul>
+            <li>
+              Second ticket release - 7pm UK time Thursday 9th October 2025
+            </li>
+            <li>
+              Third ticket release - 7pm UK time Thursday 30th October 2025
+            </li>
+          </ul>
         </p>
 
         <p>
@@ -256,14 +285,6 @@ import Layout from '../layouts/Layout.astro';
           Skint tickets are non-transferrable. Please don’t buy a ticket from
           anyone else as it won’t be valid for entry to the festival. This also
           applies to meal and camping tickets.
-        </p>
-        <p>
-          Any available festival and meal tickets from returns and cancellations
-          will be released on the website as part of a second ticket release at
-          7pm UK time on Thursday 3rd October 2024. After this date, any tickets
-          that become available due to last-minute cancellations will
-          immediately become available on the website, so please check back
-          there.
         </p>
 
         <h4>Is it possible to buy a day/ evening ticket on the day?</h4>
@@ -283,14 +304,16 @@ import Layout from '../layouts/Layout.astro';
           festival happen, so we don’t have a separate allocation of tickets for
           volunteers. If the website says we’re sold out that means we’ve
           reached the maximum number of people we can comfortably fit in the
-          venue, so sadly means we won’t be able to squeeze you in
+          venue, so sadly means we won’t be able to squeeze you in.
         </p>
         <p>
-          Please do look out for tickets becoming available on the second
-          release date: 7pm UK time on Thursday 3rd October 2024. You can also
-          sign up to <a href="/contactus">our mailing list</a> to make sure you’re
-          one of the first to hear when tickets go on sale for next year’s festival
+          Please do look out for tickets becoming available on the second and
+          third release dates. You can also sign up to <a href="/contactus">
+            our mailing list
+          </a> to make sure you’re one of the first to hear when tickets go on sale
+          for next year’s festival
         </p>
+
         <h4>I’m struggling with costs, can you help?</h4>
         <p>
           Yes we can. Please use the discount code REALLYSKINT for an automatic
@@ -302,6 +325,7 @@ import Layout from '../layouts/Layout.astro';
             get in touch
           </a>
         </p>
+
         <h4>
           I can’t make it anymore, can you transfer my tickets to my friend?
         </h4>
@@ -316,15 +340,14 @@ import Layout from '../layouts/Layout.astro';
         <p>
           Instead, please <a href="mailto:skint.dance@gmail.com">email us</a> to
           let us know you can’t make it. Then tell your friend to mark their diary
-          for the second ticket release at 7pm UK time on Thursday 3rd October 2024.
-          After this date, any tickets that become available due to last-minute cancellations
-          will immediately become available on the website, so they should check
-          there instead.
+          for the second and third ticket release dates. After these dates, any tickets
+          that become available due to last-minute cancellations will immediately
+          become available on the website, so they should check there instead.
         </p>
 
         <h4>I can’t make it anymore, can you refund my ticket?</h4>
         <p>
-          If you get in touch on or before 30th September, yes we can. Please <a
+          If you get in touch on or before {REFUND_DATE}, yes we can. Please <a
             href="mailto:skint.dance@gmail.com"
           >
             email us
@@ -332,7 +355,7 @@ import Layout from '../layouts/Layout.astro';
           in the booking terms and conditions
         </p>
         <p>
-          If it’s after 1st October, I’m afraid you’re too late for a ticket
+          If it’s after {REFUND_DATE}, I’m afraid you’re too late for a ticket
           refund but if you let us know, it might let someone else come to Skint
           as we will release the ticket as quickly as we can. Please <a
             href="mailto:skint.dance@gmail.com"
@@ -346,21 +369,32 @@ import Layout from '../layouts/Layout.astro';
           donate my ticket to someone else?
         </h4>
         <p>
+          That’s a very lovely thought, thank you! Unfortunately our system
+          isn’t set up to make this happen. The most helpful thing you can do is <a
+            href="mailto:skint.dance@gmail.com"
+          >
+            email us
+          </a> to request a refund, so that we can release the space for someone
+          else to book.
+        </p>
+
+        <h4>Why are there no ticket refunds after {REFUND_DATE}?</h4>
+        <p>
           To be fair to everyone that wants to come, we try to strike a balance
           between the needs of people that were lucky enough to get tickets the
           first time round and the needs of people that might still want to buy
           a ticket. We think that a month before the festival you will most
           likely know whether you’ll be able to make it or whether you’ve had a
-          better offer for that weekend, so 1st October is not an unreasonable
-          cut off. On the other hand, if someone is going to cancel we want to
-          encourage that to happen before 1st October so that anyone wanting
-          tickets has time to plan their travel, etc, for the weekend.
+          better offer for that weekend, so {REFUND_DATE} is not an unreasonable
+          cut off. On the other hand, if someone is going to cancel we want to encourage
+          that to happen before {REFUND_DATE} so that anyone wanting tickets has
+          time to plan their travel, etc, for the weekend.
         </p>
         <p>
           We do understand that illness can happen at the last minute and
           prevent you from coming to the festival. If that’s the case please do
-          get in touch at skint.dance@gmail.com and we’ll see what we can do on
-          a case by case basis.
+          <a href="mailto:skint.dance@gmail.com">get in touch</a> and we’ll see what
+          we can do on a case by case basis.
         </p>
       </div>
     </div>
@@ -378,6 +412,7 @@ import Layout from '../layouts/Layout.astro';
           optional extras so that you can choose for yourself whether to add
           cheese, yogurt or coriander.
         </p>
+
         <h4>I have an allergy/ dietary restriction. Can you cater for me?</h4>
 
         <p>
@@ -406,7 +441,8 @@ import Layout from '../layouts/Layout.astro';
           You will have received a booking confirmation from TicketSource when
           you first booked that has details of your meals and camping as well as
           festival tickets. Try searching your inbox for emails from:
-          customer.services@ticketsource.co.uk
+          customer.services@ticketsource.co.uk or with the subject "Booking
+          confirmation for Skint 2025"
         </p>
 
         <h4>
@@ -434,13 +470,12 @@ import Layout from '../layouts/Layout.astro';
           fairest way to reallocate tickets is to release them all on the same
           day, so you don’t need to keep checking the website. Any available
           meal tickets from returns and cancellations will be released on the
-          website as part of a second ticket release at 7pm UK time on Thursday
-          3rd October 2024.
+          website as part of a second and third ticket releases
         </p>
         <p>
-          After this date, any tickets that become available due to last-minute
-          cancellations will immediately become available on the website, so
-          please check back there.
+          After these dates, any tickets that become available due to
+          last-minute cancellations will immediately become available on the
+          website, so please check back there.
         </p>
         <p>
           In both cases, please use the free ‘placeholder ticket’ option when
@@ -461,10 +496,10 @@ import Layout from '../layouts/Layout.astro';
         <p>
           Instead, please <a href="mailto:skint.dance@gmail.com">email us</a> to
           let us know you no longer want the tickets. Then tell your friend to mark
-          their diary for the second ticket release at 7pm UK time on Thursday 3rd
-          October 2024. After this date, any meal tickets that become available due
-          to last-minute cancellations will immediately become available on the website,
-          so they should check there instead.
+          their diary for the second and third ticket release dates. After these
+          dates, any meal tickets that become available due to last-minute cancellations
+          will immediately become available on the website, so they should check
+          there instead.
         </p>
 
         <h4>How come there are less meal tickets than festival tickets?</h4>
@@ -476,7 +511,9 @@ import Layout from '../layouts/Layout.astro';
           lots of people away. In the last few years, we’ve offered more
           festival tickets than meal tickets so that more people can join in the
           weekend but it does mean that some festival-goers have to find their
-          own food for the weekend.
+          own food for the weekend. We’re working on increasing the number of
+          meals that we cook so that as many people as possible can share in the
+          communal meal, if they want to.
         </p>
 
         <h4>
@@ -493,8 +530,19 @@ import Layout from '../layouts/Layout.astro';
           You are also welcome to bring your own food to eat on site. Please
           note that there is only one shop in the village, with limited opening
           hours, so you may want to do your food shopping before you get to
-          Ashover. There will be space for you to sit and eat your own food
-          during meal times, but no food storage or cooking facilities.
+          Ashover.
+        </p>
+
+        <h4>
+          The meal tickets are not affordable for me right now, can you help?
+        </h4>
+        <p>
+          Thanks to you and the <a href="https://sifd.org/" target="_blank">
+            SIFD
+          </a> we have a fund to support people to come who otherwise wouldn't be
+          able to afford it. If you're struggling with to afford food tickets please
+          <a href="mailto:skint.dance@gmail.com">get in touch</a>, as we have a
+          small number that we can make available for free.
         </p>
       </div>
     </div>
@@ -504,13 +552,9 @@ import Layout from '../layouts/Layout.astro';
         <h4>Is it possible to borrow a sleeping bag/ sleeping mat/ tent?</h4>
         <p>
           The Skint community is full of friendly, helpful people. We suggest
-          asking on the <a
-            target="_blank"
-            href="https://www.facebook.com/events/1443608362851048"
-          >
-            Skint 2024 facebook event
-          </a> and most likely someone will be able to help you out. Click on the
-          ‘discussion’ tab to see other people’s posts and add your own post.
+          asking on the <FacebookEventLink /> and most likely someone will be able
+          to help you out. Click on the ‘discussion’ tab to see other people’s posts
+          and add your own post.
         </p>
 
         <h4>Can I bring my campervan to sleep in?</h4>
@@ -555,13 +599,35 @@ import Layout from '../layouts/Layout.astro';
           share with me. What’s a good way to advertise?
         </h4>
         <p>
-          Wow, that’s so organised! We’d suggest posting on the <a
-            target="_blank"
-            href="https://www.facebook.com/events/1443608362851048"
-          >
-            Skint 2024 facebook event
-          </a>. Click on the ‘discussion’ tab to see other people’s posts and
-          add your own post.
+          Wow, that’s so organised! We’d suggest posting on the <FacebookEventLink
+          />. Click on the ‘discussion’ tab to see other people’s posts and add
+          your own post.
+        </p>
+
+        <h4>
+          I need access to my bed during the day. Is there somewhere I can set a
+          bed up for the whole weekend?
+        </h4>
+
+        <p>
+          Yes, there are a couple of options. Some people choose to outdoor camp
+          for this reason. We’d recommend warm bedding and hot water bottles as
+          it’s likely to be cold in November!
+        </p>
+
+        <p>
+          Most people who are indoor camping will need to pack away their beds
+          during the day, as we use these spaces for workshops and for the
+          evening dances. However, there are a few sleeping spaces on the stage
+          that can be left in place all weekend. If having your own bed set up
+          is important to help you access the festival, please email us and we
+          can reserve you a space.
+        </p>
+
+        <p>
+          Even if you don’t have a stage space, we run a ‘borrow a bed’ scheme.
+          Look out for markers placed on beds to know who is happy for you to
+          take a nap on their bed while they’re not using it during the day.
         </p>
       </div>
     </div>
@@ -572,25 +638,57 @@ import Layout from '../layouts/Layout.astro';
           I’m looking for a lift. Is anyone driving to Skint from [my city]?
         </h4>
         <p>
-          To help organise car sharing we will be sending out a link to an
-          online spreadsheet where drivers can advertise any spare car spaces.
-          Access will be given via the email address that you booked with, so
+          To help organise car sharing we will be sending out a link to a
+          specific website where drivers can advertise any spare car spaces, so
           look out for this in your emails.
         </p>
         <p>
           If you can’t find a lift, don’t worry as it’s very possible to get to
-          Skint by public transport. You can find more details on our Your Visit
+          Skint by public transport. You can find more details on our <a
+            href="/yourvisit"
+          >
+            Your Visit
+          </a>
           page.
         </p>
-        <h4>I’m looking for a lift from Chesterfield train station. Can anyone pick me up?</h4>
-        <p>To help organise car sharing we will be sending out a link to an online spreadsheet where drivers can advertise any spare car spaces. As part of this we’ll be asking drivers if they are able to offer lifts from the nearest train station at Chesterfield, so you can see who might be able to pick you up. Access to the spreadsheet will be given via the email address that you booked with, so look out for this in your emails.</p>
-        <p>If you can’t find a lift, it’s also possible to get to Ashover from Chesterfield by bus (depending on the time of day) and by taxi. You can find more details on our Your Visit page. There’s space in the car-sharing spreadsheet to enter details of your travel plans, as you may well be able to find others arriving at a similar time to share a taxi with. </p>
+        <h4>
+          I’m looking for a lift from Chesterfield train station. Can anyone
+          pick me up?
+        </h4>
+        <p>
+          To help organise car sharing we will be sending out a link to a
+          specific website just for Skint attendees where drivers can advertise
+          any spare car spaces, so look out for this in your emails. As part of
+          this we’ll be asking drivers if they are able to offer lifts from the
+          nearest train station at Chesterfield, so you can see who might be
+          able to pick you up.
+        </p>
+        <p>
+          If you can’t find a lift, it’s also possible to get to Ashover from
+          Chesterfield by bus (depending on the time of day) and by taxi. You
+          can find more details on our <a href="/yourvisit">Your Visit</a> page.
+        </p>
 
         <h4>I’m traveling to Skint from outside the UK. Will I need a visa?</h4>
-        <p>Maybe. It depends on your nationality, where you’re coming from, and what else you might be doing while you’re in the UK. You can check UK government advice here: <a target="_blank" href="https://www.gov.uk/check-uk-visa">www.gov.uk/check-uk-visa</a></p>
+        <p>
+          Maybe. It depends on your nationality, where you’re coming from, and
+          what else you might be doing while you’re in the UK. You can check UK
+          government advice here: <a
+            target="_blank"
+            href="https://www.gov.uk/check-uk-visa"
+          >
+            www.gov.uk/check-uk-visa
+          </a>
+        </p>
 
         <h4>I’m struggling with travel costs, can you help?</h4>
-        <p>Thanks to you and <a target="_blank" href="https://sifd.org/">the SIFD</a>, we have a fund to support people to come who otherwise wouldn't be able to afford it. If you're struggling with transport costs please get in touch: skint.dance@gmail.com</p>
+        <p>
+          Thanks to you and <a target="_blank" href="https://sifd.org/">
+            the SIFD
+          </a>, we have a fund to support people to come who otherwise wouldn't
+          be able to afford it. If you're struggling with transport costs please
+          get in touch: skint.dance@gmail.com
+        </p>
       </div>
     </div>
 
@@ -598,30 +696,53 @@ import Layout from '../layouts/Layout.astro';
       <div class="col">
         <h1>Others</h1>
         <h4>Please can you add me to the Skint mailing list?</h4>
-        <p>Yes of course! You can find our <a href="/contactus">mailing list here</a></p>
+        <p>
+          Yes of course! You can find our <a href="/contactus">
+            mailing list here
+          </a>
+        </p>
 
-        <h4>Our band would like to play at your festival. Please can you book us?</h4>
-        <p>Skint is kind of an unusual festival in that all of the music and workshops are led by participants, so we don't ever book anyone especially to come and play or teach. If you want to play at Skint, all of your band members will need to buy a ticket, then keep an eye on your emails for more information about how to sign up to play for a workshop or for one of the evening bals. </p>
+        <h4>
+          Our band would like to play at your festival. Please can you book us?
+        </h4>
+        <p>
+          Skint is kind of an unusual festival in that all of the music and
+          workshops are led by participants, so we don't ever book anyone
+          especially to come and play or teach. If you want to play at Skint,
+          all of your band members will need to buy a ticket, then keep an eye
+          on your emails for more information about how to sign up to play for a
+          workshop or for one of the evening bals.
+        </p>
 
-        <h4>I lost an item at the festival. How can I get it back? </h4>
-        <p>If you lost anything, please <a href="mailto:skint.dance@gmail.com">contact us</a> 
-          Please also keep an eye on your emails as we’ll send out details of found property after the festival. We can arrange to get your items back to you either by regular post or folk post!
-          </p>
+        <h4>I lost an item at the festival. How can I get it back?</h4>
+        <p>
+          If you lost anything, please <a href="mailto:skint.dance@gmail.com">
+            contact us
+          </a>
+          Please also keep an eye on your emails as we’ll send out details of found
+          property after the festival. We can arrange to get your items back to you
+          either by regular post or folk post!
+        </p>
 
-          <h4>Can I donate to Skint to help support the festival?</h4>
-          <p>Yes you can. When you book your Skint tickets you’ll be able to add an optional donation. This goes towards the running of the festival, and more specifically allows us to offer discounted tickets to those that need them, so it’s much appreciated. Thank you!<p>
+        <h4>Can I donate to Skint to help support the festival?</h4>
+        <p>
+          Yes you can. When you book your Skint tickets you’ll be able to add an
+          optional donation. This goes towards the running of the festival, and
+          more specifically allows us to offer discounted tickets to those that
+          need them, so it’s much appreciated. Thank you!<p></p>
+        </p>
       </div>
+
+      <style lang="scss">
+        th {
+          font-weight: bold;
+          font-size: larger;
+          background-color: #dddddd !important;
+        }
+        h4 {
+          padding-top: 1em;
+        }
+      </style>
     </div>
   </div>
-
-  <style lang="scss">
-    th {
-      font-weight: bold;
-      font-size: larger;
-      background-color: #dddddd !important;
-    }
-    h4 {
-      padding-top: 1em
-    }
-  </style>
 </Layout>
