@@ -6,17 +6,12 @@
     <div style="font-weight:bold; text-align: center">
       Subscribe to our mailing list
     </div>
+
     <form
-      action="https://cardinalslates.co.uk/sendy/subscribe"
+      action="https://campaigns.cardinalslates.co.uk/subscribe"
       method="POST"
       accept-charset="utf-8"
     >
-      <div style="display:none;">
-        <label for="hp">HP</label>
-        <input type="text" name="hp" id="hp" />
-      </div>
-      <input type="hidden" name="list" value="i892892Bfhu763AVmklTXjnILwPg" />
-      <input type="hidden" name="subform" value="yes" />
       <div class="row gx-1">
         <div class="col-sm-4 mb-1">
           <input
@@ -36,17 +31,31 @@
             placeholder="Email"
           />
         </div>
-        <div class="col-sm-auto d-flex justify-content-center">
-          <button
-            type="submit"
-            class="btn btn-primary mb-2"
-            name="submit"
-            id="mailing-list-submit"
-            value="Subscribe"
-          >
-            Subscribe
-          </button>
-        </div>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" name="gdpr" id="gdpr" class="form-check-input" />
+        <label class="form-check-label" for="gdpr">
+          <strong>Marketing permission</strong>: I give my consent to Skint to
+          be in touch with me via email using the information I have provided in
+          this form for the purpose of news, updates and marketing.
+        </label>
+      </div>
+      <div style="display:none;">
+        <label for="hp">HP</label><br />
+        <input type="text" name="hp" id="hp" />
+      </div>
+      <input type="hidden" name="list" value="i892892Bfhu763AVmklTXjnILwPg" />
+      <input type="hidden" name="subform" value="yes" />
+      <div class="col-sm-auto d-flex justify-content-center">
+        <button
+          type="submit"
+          class="btn btn-primary mb-2"
+          name="submit"
+          id="mailing-list-submit"
+          value="Subscribe"
+        >
+          Subscribe
+        </button>
       </div>
     </form>
 
