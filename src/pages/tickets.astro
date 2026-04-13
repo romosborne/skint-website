@@ -7,6 +7,7 @@ import {
   FIRST_TICKET_RELEASE,
   SECOND_TICKET_RELEASE,
   THIRD_TICKET_RELEASE,
+  YEAR,
 } from '../constants';
 ---
 
@@ -21,7 +22,7 @@ import {
     </p>
 
     <p>
-      Booking for Skint 2025 will take place in 3 rounds:
+      Booking for Skint {YEAR} will take place in 3 rounds:
       <h5>Main ticket release</h5>
       <p>
         <strong>{FIRST_TICKET_RELEASE}</strong> - We will release most Skint tickets
@@ -44,19 +45,46 @@ import {
       </p>
     </p>
 
+    <h5>About the Booking Site</h5>
+    <p>
+      Tickets sell out very fast. Here’s some info about how the booking site
+      works that might be useful:
+    </p>
+    <ul>
+      <li>
+        Once tickets are in your online "basket" you have 20 minutes to complete
+        your booking. This means that only the first page is time-critical. Once
+        you have chosen your tickets and clicked ‘next’ you can then take your
+        time filling in attendee details and payment info.
+      </li>
+      <li>
+        After you click ‘next’ you might be told that you’re in a waiting room
+        or queue. This is something the booking site puts in place to manage
+        high-volume traffic and avoid crashing the site. It’s worth waiting for
+        a few minutes as you may be able to proceed with your booking once
+        demand has died down or if tickets are released due to other bookings
+        not being completed in the 20-minute time frame.
+      </li>
+    </ul>
+
     <h3>Tickets and Booking</h3>
 
     <p>
-      We're offfering 3 kinds of festival tickets. You only need one kind! You
-      can book up to 2 adult places and 2 child places per customer - if there
-      are more people than this in your group you will need to make more than
-      one booking.
+      There are 4 kinds of tickets for entry to the festival. You only need one
+      kind! You can book up to 2 adult places and 2 child places per customer -
+      if there are more people than this in your group/ family you will need to
+      make more than one booking.
     </p>
 
     <ul>
       <li>
         <strong>Weekend ticket</strong> - Entry to the whole festival, from Friday
         evening to Sunday afternoon.
+      </li>
+      <li>
+        <strong>First Timer Weekend ticket</strong> - Entry to the whole festival.
+        These tickets are reserved for people who have never been to Skint before.
+        We look forward to meeting you!
       </li>
       <li>
         <strong>Kids Weekend ticket</strong> - Entry is free for children under 16,
@@ -89,7 +117,7 @@ import {
 
     <div class="p-1 mb-4 bg-body-secondary rounded-3">
       <div class="container-fluid py-5">
-        <h3>Meals Update 2025</h3>
+        <h3>Meals Update {YEAR}</h3>
         <p>
           Our fantastic catering team would love to feed everyone at the
           festival, so this year they've taken on the challenge of cooking more
@@ -116,7 +144,7 @@ import {
     <p>
       <strong>
         Tickets are non-transferrable, including meal and camping tickets.
-      </strong> Names must be provided for each place, as tickets are only valid
+      </strong> A name must be provided for each place, as tickets are only valid
       for the named person. You cannot sell or give them to someone else. This is
       to make the booking process fair for everyone. We reserve the right to cancel
       tickets obtained in contravention of the rules
@@ -146,6 +174,13 @@ import {
 
     <p>Cancellations up to {REFUND_DATE} - 75% refund.</p>
     <p>Cancellations after {REFUND_DATE} - no refund will be given.</p>
+
+    <p>
+      We will consider refund requests for late cancellations on a case by case
+      basis. If you have to cancel last-minute for reasons outside of your
+      control such as illness and would benefit from a refund, please get in
+      touch and we’ll do our best to help.
+    </p>
 
     <h3>Waiting list & last-minute tickets</h3>
 
@@ -200,7 +235,7 @@ import {
           <th colspan="3">Festival admission</th>
         </tr>
         <tr>
-          <td>Weekend admission (adult)</td>
+          <td>Weekend ticket / First-timer ticket (adult)</td>
           <td style="width:70px">&pound;23</td>
         </tr>
         <tr>
