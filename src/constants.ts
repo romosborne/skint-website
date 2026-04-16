@@ -12,4 +12,4 @@ export const THIRD_TICKET_RELEASE = '7pm UK time on Friday 30th October 2026';
 
 export const TICKET_BOOKING_LINK =
   'https://www.ticketsource.com/booking/t-oeedqqp';
-export const TICKET_BOOKING_LIVE = true;
+export const TICKET_BOOKING_LIVE = false;
